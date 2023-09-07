@@ -19,5 +19,8 @@
   "homepage": "https://github.com/KyoJin-Hwang/fastcampus_2023_javascript#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
   }
 }
