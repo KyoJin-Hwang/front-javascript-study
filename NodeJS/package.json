@@ -2,9 +2,9 @@
   "name": "fastcampus_2023_javascript",
   "version": "1.0.0",
   "description": "https://okkyojin.notion.site/JavaScript-0e77cda52987405b8d9795b6059a1702?pvs=4",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html"
   },
   "repository": {
     "type": "git",
