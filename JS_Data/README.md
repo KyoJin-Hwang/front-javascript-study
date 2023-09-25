@@ -44,22 +44,113 @@ console.log(age);
 // null 출력
 
 setTimeout(function () {
-  age = 85;
+  age = 27;
   console.log(age);
-  // 85
+  // 27
   console.log(age2);
-  // 85
+  // 27
 }, 1000);
 
 const user = {
   name: "Kyojin",
-  age: 85,
+  age: 27,
 };
 
 console.log(user.name);
 // kyojin
 console.log(user.age);
-// 85
+// 27
 console.log(user.email);
 // undefined
+```
+
+<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">배열 Array (참조형)</span>
+
+```javascript
+// 배열 만드는법
+//  1-1. new라는 키워드 함께 생성자 함수 or Javascript Class
+const fruits = new Array("Apple", "Banana", "Cherry");
+//  1-2. (기호를 이용한 리터럴 방식) [] 대괄호를 씌운다
+const fruits = ["Apple", "Banana", "Cherry"];
+
+// Apple Banana 등 Array 안에 있는 요소를 Element 라고 한다.
+
+console.log(fruits);
+// ['Apple','Banana', 'Cherry']
+
+console.log(fruits[0]); // 대괄호표기법 ( 인덱싱 : 숫자로 조회하는것 )
+// Banana
+```
+
+<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">객체 Object 만드는법 (참조형)</span>
+<br/>
+객체에서의 Key:value
+
+위의 코드에서 <br>
+name: 은 key가 되며 <br>
+'kyojin' 은 value가 된다
+
+```javascript
+// 생성자 함수로 만드는 방식
+const user = new Object();
+user.name = "Kyojin";
+user.age = 27;
+
+console.log(user);
+// {
+//  name:'kyojin',
+//  age:'27',
+// }
+```
+
+```javascript
+// 함수 내부에서 this 라는 키워드로 만드는 방식
+function User() {
+  this.name = "kyojin";
+  this.age = 27;
+}
+
+const user = new User();
+
+console.log(user);
+// User라는 함수를 통해 만들어진 객체 여서 앞에 User가 붙는다.
+// User {
+// name:'kyojin',
+// age:'27'
+// }
+```
+
+```javascript
+// 기호를 이용하여 만드는 리터럴 방식
+const user = {
+  name: "kyojin",
+  age: 27,
+};
+console.log(user);
+// {
+//  name:'kyojin',
+//  age:'27',
+// }
+```
+
+<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">객체 Object 사용법</span>
+
+```javascript
+// 객체 표기법
+const user = {
+  name: "kyojin",
+  age: 27,
+};
+
+const key = "name";
+
+// 1. 점 표기법 : 변수를 채워넣을수 없다.
+console.log(user.name);
+// kyojin
+
+// 2. 대괄호 표기법 : 변수를 채워넣을수 있다.
+console.log(user["name"]);
+// kyojin
+console.log(user[key]);
+// kyojin
 ```
