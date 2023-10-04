@@ -153,4 +153,23 @@ console.log(user["name"]);
 // kyojin
 console.log(user[key]);
 // kyojin
+
+--------------------------------
+
+const userA = {
+  name: "kyo",
+  age: 27,
+};
+const userB = {
+  name: "min",
+  age: 29,
+  parent: userA,
+};
+
+console.log(userB.parent.name);
+// kyo
+
+console.log(userB["parent"]["name"]);
+console.log(userB["parent"].name);
+// kyo
 ```
