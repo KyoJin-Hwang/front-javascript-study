@@ -171,5 +171,24 @@ console.log(userB.parent.name);
 
 console.log(userB["parent"]["name"]);
 console.log(userB["parent"].name);
-// kyo
+// kyoreac
+```
+
+<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">함수 Function</span>
+
+```javascript
+// function 함수이름 () {
+//  함수 기능
+//}
+-------------------------------------------------
+function hello () {
+  console.log('Hello!')
+}
+hello()  //  <-- 함수 호출 ( 함수 실행한다는 것 )
+
+-------------------------------------------------
+function getNumber() {
+  return 123
+}
+console.log(getNumber())
 ```
