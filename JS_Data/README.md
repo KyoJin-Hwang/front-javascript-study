@@ -179,7 +179,7 @@ console.log(userB["parent"].name);
 ```javascript
 // function 함수이름 () {
 //  함수 기능
-//}
+// }
 -------------------------------------------------
 function hello () {
   console.log('Hello!')
@@ -191,4 +191,19 @@ function getNumber() {
   return 123
 }
 console.log(getNumber())
+// 123
+
+// b는 매개변수라고 하며 값을 넣어줄 수 있다.
+const a = function(b) {
+  consol.log(b)
+}
+
+a('hi')
+// hi 출력
+```
+
+<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">참과 거짓(Truthy & Falsy)</span>
+
+```javascript
+
 ```
