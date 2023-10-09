@@ -1,5 +1,7 @@
 # JS 데이터 설명
 
+**by 황교진**
+
 <span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">String, Number(원시형)</span>
 
 ```javascript
