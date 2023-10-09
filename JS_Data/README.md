@@ -205,5 +205,32 @@ a('hi')
 <span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">참과 거짓(Truthy & Falsy)</span>
 
 ```javascript
+// 참과 거짓(Truthy & Falsy)
 
+// 참에 해당하지 않는 것
+// 1) false
+// 2) 0
+// 3) null
+// 4) undefined
+// 5) NaN
+// 6) ''
+// 7) 0n (bigint)
+
+// ex1) 배열에 데이터가 있을 때
+const fruits = ["Apple", "Banana"];
+
+if (fruits) {
+  console.log("아이템이 들어있음!");
+}
+// 아이템이 들어있음!
+// fruits 는 배열에 데이터가 있으므로 True
+
+// ex2) 배열에 데이터가 없을 때
+const fruits = [];
+
+if (fruits.length) {
+  console.log("아이템이 들어있음!");
+}
+// 아무것도 뜨지않음 이유는 fruits 배열의 length 0
+// 즉 배열의 길이는 0 이기 때문에 아무것도 없어서.
 ```
