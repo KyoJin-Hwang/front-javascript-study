@@ -2,6 +2,10 @@
 
 **by 황교진**
 
+## 노션
+
+https://okkyojin.notion.site/Ch02-JS-b85a5970aca24b9f9c02a690d2613fdd?pvs=4
+
 <span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">String, Number(원시형)</span>
 
 ```javascript
