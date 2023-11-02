@@ -2,7 +2,7 @@
 
 **by 황교진**
 
-<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">String, Number(원시형)</span>
+## String, Number(원시형)
 
 ```javascript
 // String
@@ -19,7 +19,7 @@ const number3 = +"3"; // + 를 string 에 붙이면 number type으로 변환된�
 const number3 = Number("4"); // Number(들어갈 숫자)
 ```
 
-<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">Boolean, null, undefined(원시형)</span>
+## Boolean, null, undefined(원시형)
 
 ```javascript
 // Boolean
@@ -66,7 +66,7 @@ console.log(user.email);
 // undefined
 ```
 
-<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">배열 Array (참조형)</span>
+## 배열 Array (참조형)
 
 ```javascript
 // 배열 만드는법
@@ -84,7 +84,8 @@ console.log(fruits[0]); // 대괄호표기법 ( 인덱싱 : 숫자로 조회하�
 // Banana
 ```
 
-<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">객체 Object 만드는법 (참조형)</span>
+## 객체 Object 만드는법 (참조형)
+
 <br/>
 객체에서의 Key:value
 
@@ -135,7 +136,7 @@ console.log(user);
 // }
 ```
 
-<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">객체 Object 사용법</span>
+## 객체 Object 사용법
 
 ```javascript
 // 객체 표기법
@@ -176,7 +177,7 @@ console.log(userB["parent"].name);
 // kyoreac
 ```
 
-<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">함수 Function</span>
+## 함수 Function
 
 ```javascript
 // function 함수이름 () {
@@ -204,7 +205,7 @@ a('hi')
 // hi 출력
 ```
 
-<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">참과 거짓(Truthy & Falsy)</span>
+## 참과 거짓(Truthy & Falsy)
 
 ```javascript
 // 참과 거짓(Truthy & Falsy)

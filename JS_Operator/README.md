@@ -2,7 +2,7 @@
 
 **by 황교진**
 
-<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">산술, 할당, 증감 연산자</span>
+## 산술, 할당, 증감 연산자
 
 ```javascript
 // 산술(Arithmetic)
@@ -40,7 +40,7 @@ console.log(a) // 4
 ----------------------------------------------
 ```
 
-<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">부정, 비교 연산자</span>
+## 부정, 비교 연산자
 
 ```javascript
 // 부정(Negation) : 데이터에 반대되는 Boolean 데이터
@@ -68,7 +68,7 @@ console.log( a <>= b ) //true
 
 ```
 
-<span style="font-size:25px; background-color: rgb(255, 245, 177); color: black; font-weight:bold;">논리 연산자</span>
+## 논리 연산자
 
 ```javascript
 // 논리 (Logical)
