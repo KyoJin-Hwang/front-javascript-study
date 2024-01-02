@@ -83,6 +83,15 @@ if (a && b) {
     // b가 true 일경우에는 실행됨
 }
 
+// 왼쪽값이 True 일때는 오른쪽 값 return
+// 왼쪽값이 False 일때는 왼쪽 값 return
+
+console.log("hello" && null); // null
+console.log("hello" && "bye"); // bye
+console.log(null && "hello"); // null
+
+
+
 ----------------------------------------------
 
 // OR 연산자 : 두 변수 중 한개의 값이 TRUE 일경우 적용
@@ -93,6 +102,89 @@ if (a || b){
     // 한개가 참
 }
 
+// 왼쪽값이 True 일때는 왼쪽 값 return
+// 왼쪽값이 False 일때는 오른쪽 값 return
+console.log(false || 'hello') // 'hello'
+console.log('' || 'hello') // 'hello'
+console.log('트루' || 'hello') // '트루'
+console.log(1 || 'hello') // 1
+
 ----------------------------------------------
+
+```
+
+## 병합연산자 Nullish Coalescing
+
+```javascript
+// null 과 undefined 만 넘어간다.
+
+const n = 0;
+
+const num = n ?? 7;
+console.log(num); // 0
+
+// 더이상 넘어갈것이 없으므로 undefined return
+console.log(null ?? undefined); // undefined
+```
+
+## 삼항연산자
+
+```javascript
+const a = 1;
+if (a < 2) {
+  console.log("참"); // a는 1이므로 참조건문 실행
+} else {
+  console.log("거짓"); // 실행 x
+}
+
+// 조건작성 ?  '참일때' : '거짓일때'
+console.log(a < 2 ? "참!" : "거짓"); // 참!
+```
+
+## 전개연산자 ( Spread Operator )
+
+```javascript
+//  기호 : ...
+
+const a = [1, 2, 3];
+console.log(a); // [1,2,3]
+console.log(...a); // 1,2,3   대괄호가 증발한다.
+
+----------------------------------------------
+
+//배열
+const a = [1,2,3]
+const b = [4,5,6]
+
+const c = a.concat(b)
+console.log(c) // [1,2,3,4,5,6]
+
+const d = [...a, ...b]
+console.log(d) // [1,2,3,4,5,6]
+
+----------------------------------------------
+
+//객체
+const a = {x: 1, y: 2}
+const b = {y: 3, z: 4}
+
+const c = Object.assign({},a,b)
+// 객체가 붙을때 마지막에 있는 key와 value로 적용 된다  ex) => y
+console.log(c) // {x:1, y:3, z:4}
+
+const d = { ...a , ...b }
+console.log(d) // {x:1, y:3, z:4}
+
+----------------------------------------------
+
+function fn(x,y,z) {
+    console.log(x,y,z)
+}
+
+fn(1,2,3) // 1 2 3
+
+const a = [1,2,3]
+
+fn(...a)  // 1 2 3
 
 ```
