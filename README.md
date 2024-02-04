@@ -1,4 +1,4 @@
-# 패스트캠퍼스 초격차 JavaScript 강의정리
+JavaScript 정리
 
 ## 공부 메모
 
