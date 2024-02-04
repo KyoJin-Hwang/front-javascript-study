@@ -1,7 +1,5 @@
 # JS 데이터 설명
 
-**by 황교진**
-
 ## String, Number(원시형)
 
 ```javascript
