@@ -172,7 +172,7 @@ console.log(userB.parent.name);
 
 console.log(userB["parent"]["name"]);
 console.log(userB["parent"].name);
-// kyoreac
+// kyo
 ```
 
 ## 함수 Function
