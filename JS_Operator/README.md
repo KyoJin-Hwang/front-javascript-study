@@ -85,7 +85,7 @@ if (a && b) {
 
 // 왼쪽값이 True 일때는 오른쪽 값 return
 // 왼쪽값이 False 일때는 왼쪽 값 return
-
+// true는 넘어가고 맨마지막도 true 일경우까지 찾아서 그값을 준다. false 나타나면 그값을 바로준다.
 console.log("hello" && null); // null
 console.log("hello" && "bye"); // bye
 console.log(null && "hello"); // null
@@ -104,6 +104,7 @@ if (a || b){
 
 // 왼쪽값이 True 일때는 왼쪽 값 return
 // 왼쪽값이 False 일때는 오른쪽 값 return
+// 거짓은 넘어가고 맨마지막도 거짓일 경우까지 찾아서 그값을 준다 true 나타나면 그값을 바로준다.
 console.log(false || 'hello') // 'hello'
 console.log('' || 'hello') // 'hello'
 console.log('트루' || 'hello') // '트루'
