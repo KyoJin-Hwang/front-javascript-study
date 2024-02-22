@@ -1,8 +1,18 @@
-# JS 연산자와 구문
+# _JS 연산자와 구문 (Javascript Operator, Syntax)_
 
-**by 황교진**
+`by 황교진`
 
-## 산술, 할당, 증감 연산자
+## _카테고리 (Category)_
+
+1. [산술, 할당, 증감 연산자](#산술-할당-증감-연산자)
+1. [부정, 비교 연산자](#부정-비교-연산자)
+1. [논리 연산자](#논리-연산자)
+1. [병합연산자 Nullish Coalescing](#병합연산자-nullish-coalescing)
+1. [삼항연산자](#삼항연산자)
+1. [전개연산자 ( Spread Operator )](#전개연산자--spread-operator)
+1. [구조 분해 할당 ( Destructuring Assignment )](#구조-분해-할당--destructuring-assignment)
+
+## `산술, 할당, 증감 연산자`
 
 ```javascript
 // 산술(Arithmetic)
@@ -40,7 +50,9 @@ console.log(a) // 4
 ----------------------------------------------
 ```
 
-## 부정, 비교 연산자
+**[⬆ back to top](#카테고리-category)**
+
+## `부정, 비교 연산자`
 
 ```javascript
 // 부정(Negation) : 데이터에 반대되는 Boolean 데이터
@@ -68,7 +80,9 @@ console.log( a <>= b ) //true
 
 ```
 
-## 논리 연산자
+**[⬆ back to top](#카테고리-category)**
+
+## `논리 연산자`
 
 ```javascript
 // 논리 (Logical)
@@ -114,7 +128,9 @@ console.log(1 || 'hello') // 1
 
 ```
 
-## 병합연산자 Nullish Coalescing
+**[⬆ back to top](#카테고리-category)**
+
+## `병합연산자 Nullish Coalescing`
 
 ```javascript
 // null 과 undefined 만 넘어간다.
@@ -128,7 +144,9 @@ console.log(num); // 0
 console.log(null ?? undefined); // undefined
 ```
 
-## 삼항연산자
+**[⬆ back to top](#카테고리-category)**
+
+## `삼항연산자`
 
 ```javascript
 const a = 1;
@@ -142,7 +160,9 @@ if (a < 2) {
 console.log(a < 2 ? "참!" : "거짓"); // 참!
 ```
 
-## 전개연산자 ( Spread Operator )
+**[⬆ back to top](#카테고리-category)**
+
+## `전개연산자 ( Spread Operator )`
 
 ```javascript
 //  기호 : ...
@@ -189,3 +209,47 @@ const a = [1,2,3]
 fn(...a)  // 1 2 3
 
 ```
+
+**[⬆ back to top](#카테고리-category)**
+
+## `구조 분해 할당 ( Destructuring Assignment )`
+
+```javascript
+// 배열 구조 분해 할당
+const arr = [1, 2, 3];
+
+// 효율 x ( 구조 분해 할당x )
+const a = arr[0];
+const b = arr[1];
+const c = arr[2];
+console.log(a, b, c); // 1 2 3
+
+// 방법 1
+const [a, b, c] = arr;
+console.log(a, b, c); // 1 2 3
+
+// 방법 2
+let a = 0;
+let b = 0;
+let c = 0;
+[a, b, c] = arr;
+console.log(a, b, c); // 1 2 3
+
+// 방법 3 (해당부분 건너뛸때)
+let b = 0;
+let c = 0;
+// 쉼표를 적으면서 넘어간다
+[, b, c] = arr;
+console.log(b, c); // 2 3
+
+// 방법 4
+const [a, ...rest] = arr;
+console.log(a, rest); // 1 [2, 3]
+
+----------------------------------------------
+
+// 객체 구조 분해 할당
+
+```
+
+**[⬆ back to top](#카테고리-category)**
