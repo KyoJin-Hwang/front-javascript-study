@@ -1,8 +1,8 @@
-# JS 연산자와 구문 (Javascript Operator, Syntax)
+# JS 연산자와 구문 (Javascript Operator, Syntax)🛠
 
 `by Kyojin Hwang`
 
-## 카테고리 (Category)
+## 카테고리 (Category)😁
 
 1. [산술, 할당, 증감 연산자](#산술-할당-증감-연산자)
 1. [부정, 비교 연산자](#부정-비교-연산자)
