@@ -52,7 +52,7 @@ console.log(a) // 4
 
 **[⬆ back to top](#카테고리-category)**
 
-## `부정, 비교 연산자`
+## ✔부정, 비교 연산자
 
 ```javascript
 // 부정(Negation) : 데이터에 반대되는 Boolean 데이터
@@ -82,7 +82,7 @@ console.log( a <>= b ) //true
 
 **[⬆ back to top](#카테고리-category)**
 
-## `논리 연산자`
+## ✔논리 연산자
 
 ```javascript
 // 논리 (Logical)
@@ -130,7 +130,7 @@ console.log(1 || 'hello') // 1
 
 **[⬆ back to top](#카테고리-category)**
 
-## `병합연산자 Nullish Coalescing`
+## ✔병합연산자 Nullish Coalescing
 
 ```javascript
 // null 과 undefined 만 넘어간다.
@@ -146,7 +146,7 @@ console.log(null ?? undefined); // undefined
 
 **[⬆ back to top](#카테고리-category)**
 
-## `삼항연산자`
+## ✔삼항연산자
 
 ```javascript
 const a = 1;
@@ -162,7 +162,7 @@ console.log(a < 2 ? "참!" : "거짓"); // 참!
 
 **[⬆ back to top](#카테고리-category)**
 
-## `전개연산자 ( Spread Operator )`
+## ✔전개연산자 ( Spread Operator )
 
 ```javascript
 //  기호 : ...
@@ -212,7 +212,7 @@ fn(...a)  // 1 2 3
 
 **[⬆ back to top](#카테고리-category)**
 
-## `구조 분해 할당 ( Destructuring Assignment )`
+## ✔구조 분해 할당 ( Destructuring Assignment )
 
 ```javascript
 // 배열 구조 분해 할당
