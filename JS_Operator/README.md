@@ -1,7 +1,6 @@
 # 🛠JS 연산자와 구문 (Javascript Operator, Syntax)
 
 `by Kyojin Hwang`
-
 <br/>
 
 ## 📚카테고리 (Category)
