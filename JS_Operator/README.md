@@ -5,17 +5,18 @@
 
 ## 📚카테고리 (Category)
 
-1. [산술, 할당, 증감 연산자](#산술-할당-증감-연산자)
-1. [부정, 비교 연산자](#부정-비교-연산자)
-1. [논리 연산자](#논리-연산자)
-1. [병합연산자 Nullish Coalescing](#병합연산자-nullish-coalescing)
-1. [삼항연산자](#삼항연산자)
-1. [전개연산자 ( Spread Operator )](#전개연산자--spread-operator)
-1. [구조 분해 할당 ( Destructuring Assignment )](#✔구조-분해-할당--destructuring-assignment)
+1. [산술, 할당, 증감 연산자](#✔-산술-할당-증감-연산자)
+1. [부정, 비교 연산자](#✔-부정-비교-연산자)
+1. [논리 연산자](#✔-논리-연산자)
+1. [병합연산자 Nullish Coalescing](#✔-병합연산자-nullish-coalescing)
+1. [삼항연산자](#✔-삼항연산자)
+1. [전개연산자 ( Spread Operator )](#✔-전개연산자--spread-operator)
+1. [구조 분해 할당 ( Destructuring Assignment )](#✔-구조-분해-할당--destructuring-assignment)
+1. [선택적 체이닝 ( Optional Chaining )](#✔-선택적-체이닝--optional-chaining)
 
 <br/>
 
-## ✔산술, 할당, 증감 연산자
+## ✔ 산술, 할당, 증감 연산자
 
 ```javascript
 // 산술(Arithmetic)
@@ -56,7 +57,7 @@ console.log(a) // 4
 **[⬆ back to top](#📚카테고리-category)**
 <br/>
 
-## ✔부정, 비교 연산자
+## ✔ 부정, 비교 연산자
 
 ```javascript
 // 부정(Negation) : 데이터에 반대되는 Boolean 데이터
@@ -87,7 +88,7 @@ console.log( a <>= b ) //true
 **[⬆ back to top](#📚카테고리-category)**
 <br/>
 
-## ✔논리 연산자
+## ✔ 논리 연산자
 
 ```javascript
 // 논리 (Logical)
@@ -136,7 +137,7 @@ console.log(1 || 'hello') // 1
 **[⬆ back to top](#📚카테고리-category)**
 <br/>
 
-## ✔병합연산자 Nullish Coalescing
+## ✔ 병합연산자 Nullish Coalescing
 
 ```javascript
 // null 과 undefined 만 넘어간다.
@@ -170,7 +171,7 @@ console.log(a < 2 ? "참!" : "거짓"); // 참!
 **[⬆ back to top](#📚카테고리-category)**
 <br/>
 
-## ✔전개연산자 ( Spread Operator )
+## ✔ 전개연산자 ( Spread Operator )
 
 ```javascript
 //  기호 : ...
@@ -221,7 +222,7 @@ fn(...a)  // 1 2 3
 **[⬆ back to top](#📚카테고리-category)**
 <br/>
 
-## ✔구조 분해 할당 ( Destructuring Assignment )
+## ✔ 구조 분해 할당 ( Destructuring Assignment )
 
 ```javascript
 // 배열 구조 분해 할당
@@ -300,6 +301,52 @@ console.log( three, rest)
 // {one:1, two:2, four:4, five:5 }
 
 
+
 ```
 
 **[⬆ back to top](#📚카테고리-category)**
+<br/>
+
+## ✔ 선택적 체이닝 ( Optional Chaining )
+
+```javascript
+// 물음표와 마침표를 통해서 선택적으로 점표기법의 체이닝 방식을 사용하는 것
+// 에러가 발생할 때 방지하는 용도로 사용한다.
+const user = null || undefined;
+
+// ❌Error
+// 💣 null 또는 undefined 는 속성을 조회할 수 없어서 에러가 난다.
+// 이러한 경우 선택적 체이닝(❓❗)을 사용할 수 있다.
+console.log(user.name); // err
+
+// ⭕Success
+console.log(user?.name); // undefined
+
+
+----------------------------------------------
+
+const userA = {
+  name: 'kyojin',
+  age: 28,
+  address: {
+    country: 'Korea',
+    city: 'Yeosu',
+  }
+}
+
+const userB = {
+  name: 'minsu',
+  age: 24,
+}
+
+function getCity(user) {
+  return user.address?.city || '주소 없음.'
+}
+
+console.log(getCity(userA)) // Yeosu
+console.log(getCtiy(userB)) // 주소 없음.
+
+```
+
+**[⬆ back to top](#📚카테고리-category)**
+<br/>
