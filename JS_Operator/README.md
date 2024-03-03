@@ -11,7 +11,7 @@
 1. [병합연산자 Nullish Coalescing](#병합연산자-nullish-coalescing)
 1. [삼항연산자](#삼항연산자)
 1. [전개연산자 ( Spread Operator )](#전개연산자--spread-operator)
-1. [구조 분해 할당 ( Destructuring Assignment )](#구조-분해-할당--destructuring-assignment)
+1. [구조 분해 할당 ( Destructuring Assignment )](#✔구조-분해-할당--destructuring-assignment)
 
 <br/>
 
@@ -53,7 +53,7 @@ console.log(a) // 4
 ----------------------------------------------
 ```
 
-**[⬆ back to top](#카테고리-category)**
+**[⬆ back to top](#📚카테고리-category)**
 <br/>
 
 ## ✔부정, 비교 연산자
@@ -84,7 +84,7 @@ console.log( a <>= b ) //true
 
 ```
 
-**[⬆ back to top](#카테고리-category)**
+**[⬆ back to top](#📚카테고리-category)**
 <br/>
 
 ## ✔논리 연산자
@@ -133,7 +133,7 @@ console.log(1 || 'hello') // 1
 
 ```
 
-**[⬆ back to top](#카테고리-category)**
+**[⬆ back to top](#📚카테고리-category)**
 <br/>
 
 ## ✔병합연산자 Nullish Coalescing
@@ -150,7 +150,7 @@ console.log(num); // 0
 console.log(null ?? undefined); // undefined
 ```
 
-**[⬆ back to top](#카테고리-category)**
+**[⬆ back to top](#📚카테고리-category)**
 <br/>
 
 ## ✔삼항연산자
@@ -167,7 +167,7 @@ if (a < 2) {
 console.log(a < 2 ? "참!" : "거짓"); // 참!
 ```
 
-**[⬆ back to top](#카테고리-category)**
+**[⬆ back to top](#📚카테고리-category)**
 <br/>
 
 ## ✔전개연산자 ( Spread Operator )
@@ -218,7 +218,7 @@ fn(...a)  // 1 2 3
 
 ```
 
-**[⬆ back to top](#카테고리-category)**
+**[⬆ back to top](#📚카테고리-category)**
 <br/>
 
 ## ✔구조 분해 할당 ( Destructuring Assignment )
@@ -259,6 +259,47 @@ console.log(a, rest); // 1 [2, 3]
 
 // 객체 구조 분해 할당
 
+const obj = {
+  a: 1,
+  b: 2,
+  c: 3
+}
+
+// 방법 1
+const { a , b } = obj
+console.log(a, b) // 1 2
+
+// 방법 2
+// 배열 같은경우에는 순서를 맞춰야하지만 객체는 키값으로만 뽑아서 사용할 수 있다.
+const { c } = obj
+console.log(c)
+
+// 방법 3
+// obj 안에 들어가지는 않는다
+const { x = 4 } = obj
+console.log(x) // 4
+
+// 방법 4
+// 키값의 변수명을 변경할 수 있다.
+const { a: kyo } = obj
+console.log(kyo) // 1
+
+// 객체의 전개연산자
+const obj2 = {
+  one:1,
+  two:2,
+  three:3,
+  four:4,
+  five:5
+}
+
+const { three, ...rest } = obj
+// three 가 빠지고 rest는 나머지의 것들을 객체로 가지고 있는다.
+console.log( three, rest)
+// 3
+// {one:1, two:2, four:4, five:5 }
+
+
 ```
 
-**[⬆ back to top](#카테고리-category)**
+**[⬆ back to top](#📚카테고리-category)**
