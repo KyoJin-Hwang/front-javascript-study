@@ -135,7 +135,7 @@ console.log(1 || 'hello') // 1
 
 ```
 
-**[⬆ back to top](#📚카테고리-category)**
+**[⬆ back to top](#카테고리-category)**
 <br/>
 
 ## ✔ 병합연산자 Nullish Coalescing
@@ -152,7 +152,7 @@ console.log(num); // 0
 console.log(null ?? undefined); // undefined
 ```
 
-**[⬆ back to top](#📚카테고리-category)**
+**[⬆ back to top](#카테고리-category)**
 <br/>
 
 ## ✔ 삼항연산자
@@ -169,7 +169,7 @@ if (a < 2) {
 console.log(a < 2 ? "참!" : "거짓"); // 참!
 ```
 
-**[⬆ back to top](#📚카테고리-category)**
+**[⬆ back to top](#카테고리-category)**
 <br/>
 
 ## ✔ 전개연산자 ( Spread Operator )
@@ -220,7 +220,7 @@ fn(...a)  // 1 2 3
 
 ```
 
-**[⬆ back to top](#📚카테고리-category)**
+**[⬆ back to top](#카테고리-category)**
 <br/>
 
 ## ✔ 구조 분해 할당 ( Destructuring Assignment )
@@ -305,7 +305,7 @@ console.log( three, rest)
 
 ```
 
-**[⬆ back to top](#📚카테고리-category)**
+**[⬆ back to top](#카테고리-category)**
 <br/>
 
 ## ✔ 선택적 체이닝 ( Optional Chaining )
@@ -399,5 +399,5 @@ switch (조건){
 
 ```
 
-**[⬆ back to top](#📚카테고리-category)**
+**[⬆ back to top](#카테고리-category)**
 <br/>
