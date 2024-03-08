@@ -12,7 +12,7 @@
 1. [삼항연산자](#-삼항연산자)
 1. [전개연산자 ( Spread Operator )](#-전개연산자--spread-operator)
 1. [구조 분해 할당 ( Destructuring Assignment )](#-구조-분해-할당--destructuring-assignment)
-1. [선택적 체이닝 ( Optional Chaining )](#-선택적-체이닝--optional-chaining)
+1. [선택적 체이닝 ( Optional Chaining )](#선택적-체이닝--optional-chaining)
 1. [if, switch조건문](#-if-swich-조건문)
 
 <br/>
@@ -349,7 +349,7 @@ console.log(getCtiy(userB)) // 주소 없음.
 
 ```
 
-**[⬆ back to top](#📚카테고리-category)**
+**[⬆ back to top](#카테고리-category)**
 <br/>
 
 ## ✔ if, Swich 조건문
