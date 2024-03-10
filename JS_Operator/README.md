@@ -14,6 +14,8 @@
 1. [구조 분해 할당 ( Destructuring Assignment )](#-구조-분해-할당--destructuring-assignment-)
 1. [선택적 체이닝 ( Optional Chaining )](#-선택적-체이닝--optional-chaining-)
 1. [if, switch조건문](#-if-swich-조건문)
+1. [for 반복문](#-for-for-of-for-in-반복문)
+1. [while 반복문](#-while-do-while-반복문)
 
 <br/>
 
@@ -454,6 +456,39 @@ for(const key in user){
   console.log(user[key])
   // 'kyojin', 28, true, owen1127@naver.com
 }
+```
 
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+## ✔ While, Do While 반복문
+
+```javascript
+// while 반복문
+// ❗ 주의할 점
+// 무한으로 반복이 될 수 있기 때문에 항상 조건이 거짓이 될 수 있는 상황을 전재하여 코드작성한다.
+
+let n = 0
+
+while ( n < 4 ) {
+  console.log(n)
+  n+=1
+  // 0,1,2,3
+}
+
+// Do while 반복문
+let n = 0
+do {
+  // do를 먼저실행한다.
+  // 다음에 while의 조건을 본다.
+  console.log(n)
+  n += 1
+} while (n < 4 )
+----------------------------------------------
+
+// 일반적인 반복을 사용할때는 While 을 사용한다.
+// 조건에 상관없이 최초 한번은 실행이 필요할경우 do while을 사용한다.
 
 ```
+
+**[⬆ back to top](#카테고리-category)**
