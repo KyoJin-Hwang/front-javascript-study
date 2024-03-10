@@ -10,7 +10,7 @@
 1. [개요 및 설치](#개요-및-설치)
 
 # 1️⃣개요 및 설치
-![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/45911d6f-20b5-4fd1-87ad-eec51aa6981d)
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/0e7ce234-32e3-4740-b1fb-3cb5db5e9ebc)
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/640570e8-029c-4209-b69c-7aa3920dd535)
 - LTS(Long Term Support)는 말 그대로 장기 `지원되는 버전` 을 의미한다
     - 안정적이며 신뢰도를 보장한다.
