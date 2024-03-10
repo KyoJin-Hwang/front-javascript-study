@@ -10,6 +10,7 @@
 1. [개요 및 설치](#개요-및-설치)
 
 # 1️⃣개요 및 설치
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/45911d6f-20b5-4fd1-87ad-eec51aa6981d)
 
 
 **[⬆ back to top](#카테고리-category)**
