@@ -401,3 +401,59 @@ switch (조건){
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
+## ✔ For, For of, For in 반복문
+
+```javascript
+// For 반복문
+for(초기화; 조건; 증감){
+  // 반복 실행할 코드
+}
+
+// break : 사용하여 멈출 수 있다
+// continue : 현재 반복을 종료하고 다음 반복으로 넘어간다.
+
+//ex
+for(let i = 0; i < 10; i+=1){
+  // 10번 반복된다
+  console.log(i);
+  // 0,1 ,2,3,4,5,6,7,8,9
+}
+
+//ex2
+for(let i = 9; i > -1; i -= 1 ){
+  if(i % 2 === 0 ){
+    continue
+  }
+  console.log(i)
+  // 9, 7, 5, 3, 1
+}
+
+----------------------------------------------
+// For of 반복문
+
+const fruits = ['Apple', 'Banana', 'Melon']
+
+for (const fruit of fruits){
+  console.log(a)
+  // Apple, Banana, Cherry
+}
+
+----------------------------------------------
+// For in 반복문
+const user = {
+  name: 'kyojin',
+  age: '28',
+  isValid: true,
+  email : 'owen1127@naver.com'
+}
+
+for(const key in user){
+  console.log(key)
+  // name, age, isValid, email
+  console.log(user[key])
+  // 'kyojin', 28, true, owen1127@naver.com
+}
+
+
+```
