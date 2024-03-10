@@ -1,7 +1,7 @@
 # NodeJS 설명
 
-**by 황교진**
+`by Kyojin Hwang`
 
-## Parcel 사이트
+### Node.js : Chrome V8 JavaScript 엔진으로 빌드된 Javascript 런타임
 
-https://parceljs.org/docs/
+- 풀이 : 자바스크립트언어로 동작하는 컴퓨터 환경이다.
