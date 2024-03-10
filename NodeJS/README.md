@@ -23,3 +23,6 @@ LTS(Long Term Support)란? 말 그대로 장기 `지원되는 버전` 을 의�
 <br/>
 
 # 2️⃣NPM 개요
+### NPM ( Node Package Manager) 은 전세계의 개발자들이 만든 다양한 기능(패키지, 모듈)들을 관리.
+- yarn, npm 등 모듈이나 기능을 다운받을 수 있다. ( ex) npm install parcel )
+- 규모 있는 프로젝트와 협업을 위해서 사용된다. 
