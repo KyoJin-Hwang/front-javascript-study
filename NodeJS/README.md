@@ -11,7 +11,7 @@
 ## 📚카테고리 (Category)
 1. [설치](#1%EF%B8%8F⃣설치)
 1. [NPM 개요](#2%EF%B8%8F⃣npm-개요)
-1. [NPM 및 Package.json](3%EF%B8%8F⃣npm-및-packagejson)
+1. [NPM 및 Package.json](#3%EF%B8%8F⃣npm-및-packagejson)
 
 <br/>
 
@@ -28,7 +28,7 @@ LTS(Long Term Support)란? 말 그대로 장기 `지원되는 버전` 을 의�
 <br/>
 
 # 2️⃣NPM 개요
-### NPM ( Node Package Manager) 은 전세계의 개발자들이 만든 다양한 기능(패키지, 모듈)들을 관리.
+### 1. NPM ( Node Package Manager) 은 전세계의 개발자들이 만든 다양한 기능(패키지, 모듈)들을 관리.
 - yarn, npm 등 모듈이나 기능을 다운받을 수 있다. ( ex) npm install parcel )
 - 규모 있는 프로젝트와 협업을 위해서 사용된다. 
 
@@ -37,7 +37,7 @@ LTS(Long Term Support)란? 말 그대로 장기 `지원되는 버전` 을 의�
 <br/>
 
 # 3️⃣npm 및 package.json
-### **3-1 노드 버젼 및 사용방법**
+### 3-1 노드 버젼 및 사용방법
 ```powershell
 // 현재 적용중인 노드 버젼을 확인할 수 있다. 
 node --version || node -v 
