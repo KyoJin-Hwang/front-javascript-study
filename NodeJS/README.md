@@ -104,6 +104,10 @@ npm i lodash
 - node_modules 와 package-lock.json 이 생긴다
 - npm i lodash 설치한  `lodash` 는 node_modules 안에 들어 가 있다.
 
+**[⬆ back to top](#카테고리-category)**
+<hr/>
+<br/>
+
 ### 3-3 예제로 Parcel 설치해보기 
 
 ❗❗ 잠깐 Parcel 시작하기전 뜬금없지만 번들러란? 알고있는가? 
