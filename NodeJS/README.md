@@ -65,8 +65,7 @@ Windows => clear
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/87f3a2a4-66ee-4869-b584-4fd60377b2a6)
 
 **[⬆ back to top](#카테고리-category)**
-
-<br/>
+<hr/>
 
 ### 3-2 NPM 본격적으로 사용해보기
 ```powershell
@@ -84,8 +83,7 @@ npm init -y
 만약  **`package.json`** 파일을 가지고 있다면, 먼저 그 파일을 읽고 난 후 옵션을 기본값으로 사용한다.
 
 **[⬆ back to top](#카테고리-category)**
-
-<br/>
+<hr/>
 
 ### 3-3 NPM Install
 ```powershell
@@ -106,7 +104,6 @@ npm i lodash
 
 **[⬆ back to top](#카테고리-category)**
 <hr/>
-
 
 ### 3-3 예제로 Parcel 설치해보기 
 
