@@ -57,6 +57,21 @@ Windows => clear
 ```
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/87f3a2a4-66ee-4869-b584-4fd60377b2a6)
 
+```powershell
+// init (초기화) 맨처음에 프로젝트 시작할때 사용한다.
+npm init
+
+npm init -y
+```
+여러 가지 질문에 답하면(옵션을 추가하면) **`package.json`** 파일을 작성한다.
+
+각 질문을 넘어가면 기본값을 사용한다.
+
+질문 없이 바로 시작하고 싶다면 **`-f`**(**`--force`**), **`-y`**(**`--yes`**) 중 하나의 플래그를 추가하는 것을 추천
+
+만약  **`package.json`** 파일을 가지고 있다면, 먼저 그 파일을 읽고 난 후 옵션을 기본값으로 사용한다.
+
+
 
 **[⬆ back to top](#카테고리-category)**
 
