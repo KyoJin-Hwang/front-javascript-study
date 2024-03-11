@@ -54,6 +54,8 @@ nvm use 16.18.0
 macOS => Cmd + k
 Windows => clear 
 ```
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/87f3a2a4-66ee-4869-b584-4fd60377b2a6)
+
 
 **[⬆ back to top](#카테고리-category)**
 
