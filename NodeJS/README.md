@@ -73,7 +73,65 @@ npm init -y
 
 만약  **`package.json`** 파일을 가지고 있다면, 먼저 그 파일을 읽고 난 후 옵션을 기본값으로 사용한다.
 
+**[⬆ back to top](#카테고리-category)**
 
+<br/>
+
+### 3-2 NPM 본격적으로 사용해보기
+```powershell
+// init (초기화) 맨처음에 프로젝트 시작할때 사용한다.
+npm init
+
+npm init -y
+```
+여러 가지 질문에 답하면서(옵션을 추가하면) **`package.json`** 파일을 작성한다.
+
+각 질문을 넘어가면 기본값을 사용한다.
+
+질문 없이 바로 시작하고 싶다면 **`-f`**(**`--force`**), **`-y`**(**`--yes`**) 중 하나의 플래그를 추가하는 것을 추천
+
+만약  **`package.json`** 파일을 가지고 있다면, 먼저 그 파일을 읽고 난 후 옵션을 기본값으로 사용한다.
+
+**[⬆ back to top](#카테고리-category)**
+
+<br/>
+
+### 3-3 NPM i
+```powershell
+// npm i || npm install
+// package.json , lock.json 에 있는 모듈을 다운받는다 
+npm i 
+
+// npm install 과 npm i 는 같다 
+
+npm i lodash
+
+```
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/93796423-78f9-4b12-bbba-d6dc75d82910)
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/aafa7579-d890-4d08-b74d-6379ea761fab)
+
+- node_modules 와 package-lock.json 이 생긴다
+- npm i lodash 설치한  `lodash` 는 node_modules 안에 들어 가 있다.
+
+### 3-3 예제로 Parcel 사용해보기 
+
+❗❗ 잠깐 Parcel 시작하기전 번들러란? 알고있는가? 
+
+`번들러 (Bundler) ?`
+
+- 여러 가지 패키지들을 실제 웹사이트에 올라갈 수 있도록 묶어주는 역할
+- Webpack, Borserify, Parcel 대표적으로 이렇게 있다.
+- 웹사이트에서 직접적으로 동작하지 않는다.  그래서 `—save -dev` 라는 플래그를 붙여준다
+
+```powershell
+npm i parcel --save-dev
+npm i --save-dev parcel 
+
+--save-dev 앞 뒤 위치상관없음
+```
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/93f44139-1b6d-49ab-b524-c329cc973e6d)
+- dependencies에는 애플리케이션 동작과 직접적으로 연관된 라이브러리를 설치하고 ( 실제 브라우저에서 배포해서도 작동 ) 
+- devDependencies에는 개발할 때 필요한 라이브러리를 설치한다. ( 개발용 ) 
 
 **[⬆ back to top](#카테고리-category)**
 
