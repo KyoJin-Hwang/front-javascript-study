@@ -35,3 +35,26 @@ LTS(Long Term Support)란? 말 그대로 장기 `지원되는 버전` 을 의�
 
 <br/>
 
+# 3️⃣npm 및 package.json
+```powershell
+// 현재 적용중인 노드 버젼을 확인할 수 있다. 
+node --version || node -v 
+
+// 현재 적용중인 npm의 버젼을 확인할 수 있다.
+npm --version || npm -v
+
+// 다운로드된 노드버젼 확인 
+nvm list
+
+// 노드를 적용할때 는 powershell || git bash || terminal 등을 
+// 관리자모드로 하여 사용한다 
+nvm use 16.18.0
+
+// 터미널 Clean 하게 지우는 법
+macOS => Cmd + k
+Windows => clear 
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<br/>
