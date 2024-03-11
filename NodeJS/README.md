@@ -11,9 +11,13 @@
 ## 📚카테고리 (Category)
 1. [설치](#1%EF%B8%8F⃣설치)
 1. [NPM 개요](#2%EF%B8%8F⃣npm-개요)
-   1. 213
+   1. [NPM이란](#2-1-npm--node-package-manager-은-전세계의-개발자들이-만든-다양한-기능패키지-모듈들을-관리)
 1. [NPM 및 Package.json](#3%EF%B8%8F⃣npm-및-packagejson)
-   1. gh
+   1. [노드버전 및 사용방법](#3-1-노드-버젼-및-사용방법)
+   2. [NPM 본격적으로 사용해보기](#3-2-npm-본격적으로-사용해보기)
+   3. [NPM Install](#3-3-npm-install)
+   4. asd
+   5. 
 
 <br/>
 
@@ -60,21 +64,6 @@ Windows => clear
 ```
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/87f3a2a4-66ee-4869-b584-4fd60377b2a6)
 
-### 3-2 NPM 본격적으로 사용해보기
-```powershell
-// init (초기화) 맨처음에 프로젝트 시작할때 사용한다.
-npm init
-
-npm init -y
-```
-여러 가지 질문에 답하면서(옵션을 추가하면) **`package.json`** 파일을 작성한다.
-
-각 질문을 넘어가면 기본값을 사용한다.
-
-질문 없이 바로 시작하고 싶다면 **`-f`**(**`--force`**), **`-y`**(**`--yes`**) 중 하나의 플래그를 추가하는 것을 추천
-
-만약  **`package.json`** 파일을 가지고 있다면, 먼저 그 파일을 읽고 난 후 옵션을 기본값으로 사용한다.
-
 **[⬆ back to top](#카테고리-category)**
 
 <br/>
@@ -98,7 +87,7 @@ npm init -y
 
 <br/>
 
-### 3-3 NPM i
+### 3-3 NPM Install
 ```powershell
 // npm i || npm install
 // package.json , lock.json 에 있는 모듈을 다운받는다 
