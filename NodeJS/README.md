@@ -16,7 +16,7 @@
    1. [노드버전 및 사용방법](#3-1-노드-버젼-및-사용방법)
    2. [NPM 본격적으로 사용해보기](#3-2-npm-본격적으로-사용해보기)
    3. [NPM Install](#3-3-npm-install)
-   4. asd
+   4. [예제: Parcel 설치해보기](##3-3-예제로-parcel-설치해보기)
    5. 
 
 <br/>
@@ -104,9 +104,9 @@ npm i lodash
 - node_modules 와 package-lock.json 이 생긴다
 - npm i lodash 설치한  `lodash` 는 node_modules 안에 들어 가 있다.
 
-### 3-3 예제로 Parcel 사용해보기 
+### 3-3 예제로 Parcel 설치해보기 
 
-❗❗ 잠깐 Parcel 시작하기전 번들러란? 알고있는가? 
+❗❗ 잠깐 Parcel 시작하기전 뜬금없지만 번들러란? 알고있는가? 
 
 `번들러 (Bundler) ?`
 
