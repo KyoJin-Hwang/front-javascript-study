@@ -1,5 +1,8 @@
 # JS 데이터 설명
 
+`by Kyojin Hwang`
+<br/>
+
 ## String, Number(원시형)
 
 ```javascript
