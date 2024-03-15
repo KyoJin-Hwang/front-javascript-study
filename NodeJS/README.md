@@ -127,3 +127,22 @@ npm i --save-dev parcel
 **[⬆ back to top](#카테고리-category)**
 
 <br/>
+
+### 3-4 .gitignore
+```powershell
+// 깃이그노어 생성
+touch .gitignore 
+```
+ 
+`이그노어 생성이유 ?`
+
+1.  npm i 로 node_modules 를 언제나 생성할 수 있기 때문에
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/7fda1361-034b-46df-a0eb-218de3036d12)
+
+1-1. 버전관리 하지 않을  경우 
+
+**[⬆ back to top](#카테고리-category)**
+
+<br/>
+
+# 3️⃣npm 및 package.json
