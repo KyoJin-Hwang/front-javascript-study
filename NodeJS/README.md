@@ -17,6 +17,7 @@
    2. [NPM 본격적으로 사용해보기](#3-2-npm-본격적으로-사용해보기)
    3. [NPM Install](#3-3-npm-install)
    4. [예제: Parcel 설치해보기](##3-3-예제로-parcel-설치해보기)
+   5. [gitignore](#3-4-gitignore)
 
 <br/>
 
