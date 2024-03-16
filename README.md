@@ -4,7 +4,7 @@
 ## 📚자바스크립트 공부 체크박스
 
 - [x] ~~Node JS 기초~~
-- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Data">Node JS 기초</a>
+- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/NodeJS">Node JS 기초</a>
 <hr/>
 
 - [x] ~~JS 데이터 설명~~
