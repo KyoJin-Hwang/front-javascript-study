@@ -146,4 +146,38 @@ touch .gitignore
 
 <br/>
 
+### 3-5 Parcel, 개발 서버 실행과 빌드 
+
+**실행방법**
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/df578dd6-3e67-42a4-91aa-0b6917bbf6fc)
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/8b6c4cde-e33c-41e3-bed9-2ce30b91bf52)
+
+1. scripts 에 test 를 dev로 직관적이게 바꿔준다.
+2. dev 안의 parcel ./index.html ( 동작할 html을 적어준다. ) 
+3. 터미널에서 npm run dev를 한다.
+
+첫번째 Error 발생 
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/62a5824a-49ff-4c09-9447-8b3cb84b7ed2)
+- script를 불러오는 html에 module 이라는 타입이 없어서이다.
+
+두번째 Error 발생 
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/e1e31aa5-c861-4004-83a8-7bbf67c230ff)
+- Parcel 이 ts를 가지고있어서 사용할 수있음 ( 원래는 ts 따로 적용해야함 ) 
+
+**빌드방법**
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/5667974b-a1cb-436a-b6fa-e492d586a123)
+
+Error 해결 
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/2579938d-d768-45a7-b0f3-23f9e5dfa4fa)
+
+1. build 라는 scripts 생성한다.
+2. 터미널에 npm run build를 실행한다. 
+3. 완료
+![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/6b137925-d492-4891-bb5d-95bf7768b10b)
+
+
+**[⬆ back to top](#카테고리-category)**
+
+<br/>
+
 
