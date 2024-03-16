@@ -23,6 +23,7 @@ const number2 = NaN; // Not of Number
 const number3 = +"3"; // + 를 string 에 붙이면 number type으로 변환된다 숫자만해당
 const number3 = Number("4"); // Number(들어갈 숫자)
 ```
+
 **[⬆ back to top](#카테고리-category)**
 <br />
 
@@ -74,6 +75,9 @@ console.log(user.email);
 // undefined
 ```
 
+**[⬆ back to top](#카테고리-category)**
+<br />
+
 ### 배열 Array (참조형)
 
 ```javascript
@@ -91,6 +95,9 @@ console.log(fruits);
 console.log(fruits[0]); // 대괄호표기법 ( 인덱싱 : 숫자로 조회하는것 )
 // Banana
 ```
+
+**[⬆ back to top](#카테고리-category)**
+<br />
 
 ### 객체 Object 만드는법 (참조형)
 
@@ -144,6 +151,9 @@ console.log(user);
 // }
 ```
 
+**[⬆ back to top](#카테고리-category)**
+<br />
+
 ### 객체 Object 사용법
 
 ```javascript
@@ -185,6 +195,9 @@ console.log(userB["parent"].name);
 // kyo
 ```
 
+**[⬆ back to top](#카테고리-category)**
+<br />
+
 ### 함수 Function
 
 ```javascript
@@ -212,6 +225,9 @@ const a = function(b) {
 a('hi')
 // hi 출력
 ```
+
+**[⬆ back to top](#카테고리-category)**
+<br />
 
 ### 참과 거짓(Truthy & Falsy)
 
@@ -245,3 +261,6 @@ if (fruits.length) {
 // 아무것도 뜨지않음 이유는 fruits 배열의 length 0
 // 즉 배열의 길이는 0 이기 때문에 아무것도 없어서.
 ```
+
+**[⬆ back to top](#카테고리-category)**
+<br />
