@@ -1,7 +1,7 @@
 # JavaScript Study
 `by Kyojin Hwang`
 
-## 📚공부목록
+## 📚공부 체크박스
 
 - [x] Node JS 기초
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Data">Node JS 기초</a>
