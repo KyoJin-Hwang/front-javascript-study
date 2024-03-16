@@ -1,4 +1,6 @@
-JavaScript 정리
+JavaScript Study
+Category
+
 
 `by Kyojin Hwang`
 <br/>
