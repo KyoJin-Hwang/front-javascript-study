@@ -7,7 +7,7 @@
 
 1. [String, Number(원시형)](#-산술-할당-증감-연산자)
 
-## String, Number(원시형)
+### String, Number(원시형)
 
 ```javascript
 // String
@@ -24,7 +24,7 @@ const number3 = +"3"; // + 를 string 에 붙이면 number type으로 변환된�
 const number3 = Number("4"); // Number(들어갈 숫자)
 ```
 
-## Boolean, null, undefined(원시형)
+### Boolean, null, undefined(원시형)
 
 ```javascript
 // Boolean
@@ -71,7 +71,7 @@ console.log(user.email);
 // undefined
 ```
 
-## 배열 Array (참조형)
+### 배열 Array (참조형)
 
 ```javascript
 // 배열 만드는법
@@ -89,7 +89,7 @@ console.log(fruits[0]); // 대괄호표기법 ( 인덱싱 : 숫자로 조회하�
 // Banana
 ```
 
-## 객체 Object 만드는법 (참조형)
+### 객체 Object 만드는법 (참조형)
 
 <br/>
 객체에서의 Key:value
@@ -141,7 +141,7 @@ console.log(user);
 // }
 ```
 
-## 객체 Object 사용법
+### 객체 Object 사용법
 
 ```javascript
 // 객체 표기법
@@ -182,7 +182,7 @@ console.log(userB["parent"].name);
 // kyo
 ```
 
-## 함수 Function
+### 함수 Function
 
 ```javascript
 // function 함수이름 () {
@@ -210,7 +210,7 @@ a('hi')
 // hi 출력
 ```
 
-## 참과 거짓(Truthy & Falsy)
+### 참과 거짓(Truthy & Falsy)
 
 ```javascript
 // 참과 거짓(Truthy & Falsy)
