@@ -23,6 +23,9 @@ const number2 = NaN; // Not of Number
 const number3 = +"3"; // + 를 string 에 붙이면 number type으로 변환된다 숫자만해당
 const number3 = Number("4"); // Number(들어갈 숫자)
 ```
+**[⬆ back to top](#카테고리-category)**
+<br />
+
 
 ### Boolean, null, undefined(원시형)
 
