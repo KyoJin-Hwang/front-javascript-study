@@ -158,14 +158,16 @@ touch .gitignore
 2. dev 안의 parcel ./index.html ( 동작할 html을 적어준다. ) 
 3. 터미널에서 npm run dev를 한다.
 
-첫번째 Error 발생 
+`첫번째 Error 발생`
+
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/62a5824a-49ff-4c09-9447-8b3cb84b7ed2)
 - script를 불러오는 html에 module 이라는 타입이 없어서이다 추가해준다. 
 
 <hr/>
 
 
-두번째 Error 발생 
+`두번째 Error 발생`
+
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/e1e31aa5-c861-4004-83a8-7bbf67c230ff)
 - Parcel 이 ts를 가지고있어서 사용할 수있음 ( 원래는 ts 따로 적용해야함 ) 
 
