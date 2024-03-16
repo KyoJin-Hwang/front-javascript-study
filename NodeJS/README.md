@@ -18,6 +18,7 @@
    3. [NPM Install](#3-3-npm-install)
    4. [예제: Parcel 설치해보기](#3-3-예제로-parcel-설치해보기)
    5. [gitignore](#3-4-gitignore)
+   6. [개발서버 실행과빌드](#3-5-Parcel,-개발-서버-실행과-빌드)
 
 <br/>
 
@@ -149,6 +150,7 @@ touch .gitignore
 ### 3-5 Parcel, 개발 서버 실행과 빌드 
 
 **실행방법**
+
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/df578dd6-3e67-42a4-91aa-0b6917bbf6fc)
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/8b6c4cde-e33c-41e3-bed9-2ce30b91bf52)
 
@@ -158,11 +160,17 @@ touch .gitignore
 
 첫번째 Error 발생 
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/62a5824a-49ff-4c09-9447-8b3cb84b7ed2)
-- script를 불러오는 html에 module 이라는 타입이 없어서이다.
+- script를 불러오는 html에 module 이라는 타입이 없어서이다 추가해준다. 
+
+<hr/>
+
 
 두번째 Error 발생 
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/e1e31aa5-c861-4004-83a8-7bbf67c230ff)
 - Parcel 이 ts를 가지고있어서 사용할 수있음 ( 원래는 ts 따로 적용해야함 ) 
+
+<hr/>
+
 
 **빌드방법**
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/5667974b-a1cb-436a-b6fa-e492d586a123)
