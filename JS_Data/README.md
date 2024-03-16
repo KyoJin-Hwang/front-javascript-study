@@ -5,7 +5,7 @@
 
 ## 📚카테고리 (Category)
 
-1. [String, Number(원시형)](#-산술-할당-증감-연산자)
+1. [String, Number(원시형)](#String,-Number(원시형))
 
 ### String, Number(원시형)
 
