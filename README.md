@@ -1,4 +1,4 @@
-JavaScript Study
+# JavaScript Study
 `by Kyojin Hwang`
 
 ## 📚공부목록
