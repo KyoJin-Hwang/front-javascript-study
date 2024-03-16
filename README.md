@@ -3,8 +3,12 @@
 
 ## 📚공부목록
 
-- [x] 데이터타입
-- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Data">데이터 타입</a>
+- [x] JS 데이터 설명
+- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Data">JS 데이터 설명</a>
+- [x] JS 데이터 설명
+- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Data">JS 데이터 설명</a>
+- [x] JS 데이터 설명
+- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Data">JS 데이터 설명</a>
 
 
 
