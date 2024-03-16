@@ -5,7 +5,11 @@
 
 ## 📚카테고리 (Category)
 
-1. [String, Number(원시형)](#String,-Number(원시형))
+1. [String, Number(원시형)](#string-number원시형)
+1. [String, Number(원시형)](#string-number원시형)
+1. [String, Number(원시형)](#string-number원시형)
+1. [String, Number(원시형)](#string-number원시형)
+1. [String, Number(원시형)](#string-number원시형)
 
 ### String, Number(원시형)
 
