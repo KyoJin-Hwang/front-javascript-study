@@ -18,7 +18,7 @@
    3. [NPM Install](#3-3-npm-install)
    4. [예제: Parcel 설치해보기](#3-3-예제로-parcel-설치해보기)
    5. [gitignore](#3-4-gitignore)
-   6. [개발서버 실행과빌드](#3-5-Parcel,-개발-서버-실행과-빌드)
+   6. [개발서버 실행과빌드](#3-5-parcel-개발-서버-실행과-빌드)
 
 <br/>
 
@@ -173,14 +173,17 @@ touch .gitignore
 
 
 **빌드방법**
+
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/5667974b-a1cb-436a-b6fa-e492d586a123)
 
 Error 해결 
+
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/2579938d-d768-45a7-b0f3-23f9e5dfa4fa)
 
 1. build 라는 scripts 생성한다.
 2. 터미널에 npm run build를 실행한다. 
 3. 완료
+
 ![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/6b137925-d492-4891-bb5d-95bf7768b10b)
 
 
