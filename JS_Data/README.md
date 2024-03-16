@@ -3,15 +3,8 @@
 `by Kyojin Hwang`
 <br/>
 
-## 📚카테고리 (Category)
 
-1. [String, Number(원시형)](#string-number원시형)
-1. [String, Number(원시형)](#string-number원시형)
-1. [String, Number(원시형)](#string-number원시형)
-1. [String, Number(원시형)](#string-number원시형)
-1. [String, Number(원시형)](#string-number원시형)
-
-### String, Number(원시형)
+## String, Number(원시형)
 
 ```javascript
 // String
@@ -32,7 +25,7 @@ const number3 = Number("4"); // Number(들어갈 숫자)
 <br />
 
 
-### Boolean, null, undefined(원시형)
+## Boolean, null, undefined(원시형)
 
 ```javascript
 // Boolean
@@ -82,7 +75,7 @@ console.log(user.email);
 **[⬆ back to top](#카테고리-category)**
 <br />
 
-### 배열 Array (참조형)
+## 배열 Array (참조형)
 
 ```javascript
 // 배열 만드는법
@@ -103,7 +96,7 @@ console.log(fruits[0]); // 대괄호표기법 ( 인덱싱 : 숫자로 조회하�
 **[⬆ back to top](#카테고리-category)**
 <br />
 
-### 객체 Object 만드는법 (참조형)
+## 객체 Object 만드는법 (참조형)
 
 <br/>
 객체에서의 Key:value
@@ -158,7 +151,7 @@ console.log(user);
 **[⬆ back to top](#카테고리-category)**
 <br />
 
-### 객체 Object 사용법
+## 객체 Object 사용법
 
 ```javascript
 // 객체 표기법
@@ -202,7 +195,7 @@ console.log(userB["parent"].name);
 **[⬆ back to top](#카테고리-category)**
 <br />
 
-### 함수 Function
+## 함수 Function
 
 ```javascript
 // function 함수이름 () {
@@ -233,7 +226,7 @@ a('hi')
 **[⬆ back to top](#카테고리-category)**
 <br />
 
-### 참과 거짓(Truthy & Falsy)
+## 참과 거짓(Truthy & Falsy)
 
 ```javascript
 // 참과 거짓(Truthy & Falsy)
