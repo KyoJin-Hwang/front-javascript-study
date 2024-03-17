@@ -14,7 +14,10 @@
 - [x] ~~🛠JS 연산자와 구문 (Javascript Operator, Syntax)~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Operator">🛠JS 연산자와 구문 (Javascript Operator, Syntax)</a>
 
+<hr/>
 
+- [ ] **JavaScript Function**
+- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Operator">JavaScript Function</a>
 
 
 <br/>
