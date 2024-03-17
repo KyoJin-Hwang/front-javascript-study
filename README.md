@@ -16,7 +16,7 @@
 
 <hr/>
 
-- [ ] **JS 함수**
+- [ ] **JavaScript Function**
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Operator">JavaScript Function</a>
 
 
