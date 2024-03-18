@@ -81,6 +81,23 @@ function bomb() {
 - 모든 선언에는 호이스팅이 일어난다.
 - 하지만 let, const, class를 이용한 선언물을 호이스팅이 발생하지 않는것 처럼 동작
 
+### 자바스크립트에서의 변수 처리
+
+자바스크립트에서는 총 3단계에 걸쳐 변수를 생성한다.
+
+1. 선언 단계(Declaration phase)
+
+   - 변수 객체(Variable Object)를 생성하고 변수를 등록한다.
+   - 스코프는 해당 변수 객체를 참조한다.
+
+2. 초기화 단계(Initialization phase)
+
+   - 변수 객체(Variable Object)에 등록된 변수를 메모리에 할당한다.
+   - 변수는 undefined로 초기화된다.
+
+3. 할당 단계(Assignment phase)
+   - undefined로 초기화된 변수에 실제값을 할당한다.
+
 ### ❗호이스팅 예시
 
 ```javascript
@@ -90,14 +107,18 @@ text = 'kyo!'; // (선언 + 초기화 + 할당 된 상태)
 var text;
 console.log(text);
 ----------------------------------------------------
-// 호이스팅 때문에 선언이 끌어올려졌지만 초기화 안된 상태에서 참조해서 오류 남❗
-console.log(text);
-// (선언 된 상태, 초기화(메모리 공간 확보와 undefined로 초기화)
-// 안되서 참조 불가능 -> 에러남❗)
-let text; // 여기서 초기화 단계가 실행됨
+text = 'Hello'; // 선언 없으면 var로 선언한 것과 동일해진다.❌
+let text; // 여기서 var 선언을 let으로 변경해준 것이다.❌
+console.log(text)
+// let 키워드로는 선언이 끌어올려지지 않기 때문에 undefined를 리턴함.
 ----------------------------------------------------
 const text;
 // 에러남. 주의❗ 애초에 const 키워드로 재할당 불가능! 그래서 선언과 동시에 할당해야함
 ----------------------------------------------------
-
 ```
+
+#### 참고 블로그
+
+https://hanamon.kr/javascript-%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85%EC%9D%B4%EB%9E%80-hoisting/
+
+https://yoo11052.tistory.com/151
