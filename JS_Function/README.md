@@ -71,6 +71,8 @@ function bomb() {
 **[⬆ back to top](#카테고리-category)**
 <br/>
 
+<hr/>
+
 ## ✔ 호이스팅
 
 ### 👊호이스팅이란?
