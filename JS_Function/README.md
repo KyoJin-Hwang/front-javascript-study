@@ -166,3 +166,8 @@ function plus(num){
    return num + 1
 }
 ```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+## ✔ 매개변수 패턴 (Parameter pattern)
