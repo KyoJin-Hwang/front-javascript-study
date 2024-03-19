@@ -205,5 +205,22 @@ console.log(sum(1,2)) // 3
 ----------------------------------------------
 
 // 구조분해할당 패턴
+const userObj = {
+   name : 'kyo',
+   age : 28
+}
 
+// ex)1 : user 파라미터를 구조분해할당하여 변수에 저장하여 사용
+function getName(user){
+   const { name } = user // 여기는 파라미터를 가지고온다.
+   return name
+}
+
+// ex)2 : 파라미터에서 구조분해할당하여 코드를 줄인다.
+function getName({name}){
+   return name
+}
+
+// 여기는 맨상단 객체를가져와서 인자로 넣는다
+console.log(getName(userObj))
 ```
