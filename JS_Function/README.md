@@ -68,6 +68,9 @@ function bomb() {
 >
 > > 함수와 변수가 전역 스코프에 영향을 미치지 않도록 방지하는 데 사용된다.
 
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
 ## ✔ 호이스팅
 
 ### 👊호이스팅이란?
@@ -122,3 +125,8 @@ const text;
 https://hanamon.kr/javascript-%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85%EC%9D%B4%EB%9E%80-hoisting/
 
 https://yoo11052.tistory.com/151
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+## ✔ 반환 및 종료
