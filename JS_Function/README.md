@@ -114,7 +114,7 @@ console.log(text);
 ----------------------------------------------------
 text = 'Hello'; // 선언 없으면 var로 선언한 것과 동일해진다.❌
 let text; // 여기서 var 선언을 let으로 변경해준 것이다.❌
-console.log(text)
+console.log(text);
 // let 키워드로는 선언이 끌어올려지지 않기 때문에 undefined를 리턴함.
 ----------------------------------------------------
 const text;
@@ -152,20 +152,20 @@ console.log(hello2()); // undefined
 -------------------------------------
 // 예시
 function plus(num){
-   return num + 1
+   return num + 1;
 }
-console.log(plus(2)) // 3
-console.log(plus(7)) // 8
-console.log(plus()) // NaN : 이유는 num에 아무값도 들어오지않아서 (undefined + 1)
+console.log(plus(2)); // 3
+console.log(plus(7)); // 8
+console.log(plus()); // NaN : 이유는 num에 아무값도 들어오지않아서 (undefined + 1)
 
 // 하지만 NaN 이 안나오는 방법이 있다❗
 function plus(num){
    // 조건문을 활용한다.
    if(typeof num !== 'number'){
       console.log('숫자를 입력해주세요.')
-      return 0 // 여기서 return을 사용하였기 때문에 아래의 return은 사용되지 않는다.
+      return 0; // 여기서 return을 사용하였기 때문에 아래의 return은 사용되지 않는다.
    }
-   return num + 1
+   return num + 1;
 }
 ```
 
@@ -193,34 +193,65 @@ console.log(add(5, 3)); // 8
 
 ----------------------------------------------
 
-// 기본값 패턴
+// 🧐기본값 패턴
 // b 에 기본 값 1을 주고
 // 값을 넣어도되고 안넣어줘도 기본값을 사용할 수 있게 만들어줬다.
 function sum(a, b = 1){
-   return a+b
+   return a + b;
 }
-console.log(sum(7)) // 8
-console.log(sum(1,2)) // 3
+console.log(sum(7)); // 8
+console.log(sum(1,2)); // 3
 
 ----------------------------------------------
 
-// 구조분해할당 패턴
+// 🧐객체 구조분해할당 패턴
 const userObj = {
    name : 'kyo',
    age : 28
+   email: 'owen1127@naver.com'
 }
 
 // ex)1 : user 파라미터를 구조분해할당하여 변수에 저장하여 사용
 function getName(user){
    const { name } = user // 여기는 파라미터를 가지고온다.
-   return name
+   return name;
 }
 
 // ex)2 : 파라미터에서 구조분해할당하여 코드를 줄인다.
 function getName({name}){
-   return name
+   return name;
 }
 
+// ex)3 : 기본값을 활용한 구조분해할당 패턴
+function getEmail({ email = '이메일이 없습니다.'}) {
+   return email;
+}
+
+
 // 여기는 맨상단 객체를가져와서 인자로 넣는다
-console.log(getName(userObj))
+console.log(getName(userObj)); // kyo
+console.log(getEmail(userObj)); // owen1127@naver.com
+
+----------------------------------------------
+
+// 🧐배열 구조분해할당 패턴
+
+const fruits = ['Apple', 'Banana', 'Cherry']
+
+// ex1 ) 첫번째 방법
+function getFruits([a, b, c]){
+   return b;
+}
+
+// ex2 ) 두번째 방법
+function getFruits([, b]){
+   return b;
+}
+
+console.log(getFruits); // Banana
+
+----------------------------------------------
+
+// 🧐나머지 매개변수(Rest parameter)
+
 ```
