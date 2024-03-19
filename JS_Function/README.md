@@ -171,3 +171,11 @@ function plus(num){
 <br/>
 
 ## ✔ 매개변수 패턴 (Parameter pattern)
+
+```javascript
+function add(a, b) {
+  return a + b;
+}
+const sum = add(5, 3); // sum은 8이 된다.
+// 이때 a와 b가 매개변수이다.
+```
