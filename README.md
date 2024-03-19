@@ -1,5 +1,7 @@
 # JavaScript Study
 `by Kyojin Hwang`
+## 티스토리와 함께 정리
+URL : https://bobcsot.tistory.com/category/Language/Javascript
 
 ## 📚자바스크립트 공부 체크박스
 
