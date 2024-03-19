@@ -172,10 +172,20 @@ function plus(num){
 
 ## ✔ 매개변수 패턴 (Parameter pattern)
 
+### 매개변수
+
+- 함수에 전달되는 값을 담는 변수를 말한다.
+
+### 인자
+
+- 함수를 호출할 때 실제로 전달되는 값
+
 ```javascript
+// function add(a,b) => a와 b는 매개변수 이다.
 function add(a, b) {
   return a + b;
 }
+
+// add(5, 3) => 5와 3은 인자
 const sum = add(5, 3); // sum은 8이 된다.
-// 이때 a와 b가 매개변수이다.
 ```
