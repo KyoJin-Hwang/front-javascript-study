@@ -8,6 +8,7 @@
 
 1. [선언과 표현](#1%EF%B8%8F⃣-선언과-표현)
 1. [호이스팅](#2%EF%B8%8F⃣-호이스팅)
+1. [반환 및 종료](#2%EF%B8%8F⃣-호이스팅)
 1. [매개변수 패턴](#3%EF%B8%8F⃣-매개변수-패턴-parameter-pattern)
 
 <br/>
@@ -131,7 +132,7 @@ https://yoo11052.tistory.com/151
 **[⬆ back to top](#카테고리-category)**
 <br/>
 
-## ✔ 반환 및 종료
+## 3️⃣ 반환 및 종료
 
 ### return
 
@@ -172,7 +173,7 @@ function plus(num){
 **[⬆ back to top](#카테고리-category)**
 <br/>
 
-## 3️⃣ 매개변수 패턴 (Parameter pattern)
+## 4️⃣ 매개변수 패턴 (Parameter pattern)
 
 ### 매개변수
 
