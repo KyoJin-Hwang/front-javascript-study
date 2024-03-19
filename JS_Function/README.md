@@ -130,3 +130,39 @@ https://yoo11052.tistory.com/151
 <br/>
 
 ## ✔ 반환 및 종료
+
+### return
+
+- 함수 내부에서 정해진 명령들을 실행후 다시 돌려준다,반환한다 라는 의미다.
+- 함수 중단할 때 쓰인다.
+
+```javascript
+function hello() {
+  return "Hello~";
+}
+console.log(hello()); // Hello~
+
+function hello2() {
+  return;
+}
+console.log(hello2()); // undefined
+
+-------------------------------------
+// 예시
+function plus(num){
+   return num + 1
+}
+console.log(plus(2)) // 3
+console.log(plus(7)) // 8
+console.log(plus()) // NaN : 이유는 num에 아무값도 들어오지않아서 (undefined + 1)
+
+// 하지만 NaN 이 안나오는 방법이 있다❗
+function plus(num){
+   // 조건문을 활용한다.
+   if(typeof num !== 'number'){
+      console.log('숫자를 입력해주세요.')
+      return 0 // 여기서 return을 사용하였기 때문에 아래의 return은 사용되지 않는다.
+   }
+   return num + 1
+}
+```
