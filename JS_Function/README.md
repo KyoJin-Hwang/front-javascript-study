@@ -10,6 +10,10 @@
 1. [호이스팅](#2%EF%B8%8F⃣-호이스팅)
 1. [반환 및 종료](#3%EF%B8%8F⃣-반환-및-종료)
 1. [매개변수 패턴](#4%EF%B8%8F⃣-매개변수-패턴-parameter-pattern)
+1. [화살표 함수](#4%EF%B8%8F⃣-매개변수-패턴-parameter-pattern)
+1. [즉시실행함수](#4%EF%B8%8F⃣-매개변수-패턴-parameter-pattern)
+1. [콜백](#4%EF%B8%8F⃣-매개변수-패턴-parameter-pattern)
+1. [재귀](#4%EF%B8%8F⃣-매개변수-패턴-parameter-pattern)
 
 <br/>
 
