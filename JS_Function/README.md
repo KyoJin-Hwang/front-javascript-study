@@ -422,3 +422,5 @@ const getRootUser = (user) => {
 };
 console.log(getRootUser(userD));
 ```
+**[⬆ back to top](#카테고리-category)**
+<br/>
