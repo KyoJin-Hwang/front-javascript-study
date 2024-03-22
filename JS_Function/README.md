@@ -422,5 +422,14 @@ const getRootUser = (user) => {
 };
 console.log(getRootUser(userD));
 ```
+
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
+## 9️⃣ 호출 스케줄링
+
+`스케줄링이란?🧐`
+
+- 자원을 효율적으로 사용하기 위해 자원을 사용하는 순서를 결정짓는 작업이다.
+  <br/>
+  ( 한마디로 복잡한 순서없이 깔끔하게 할일을 정리해서 하는 작업이다.)
