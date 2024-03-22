@@ -311,3 +311,36 @@ const i = () => {
 };
 const j = () => [1, 2, 3];
 ```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+## 6️⃣ 즉시실행함수 (IIFE, Immediately-Invoked Function Expression)
+
+```javascript
+// 기존함수 사용방법
+const a = 7;
+
+const double = () => {
+  console.log(a * 2);
+};
+
+double(); // 14
+
+// 즉시실행함수
+const a = 7;
+
+(() => {
+  console.log(a * 2);
+})();
+
+// 즉시실햄함수 패턴
+(() => {})(); // 첫번째
+(function () {})(); // 두번째
+
+// 즉시실행함수 사용해보기
+((a, b) => {
+  console.log(a);
+  console.log(b);
+})(1, 2);
+```
