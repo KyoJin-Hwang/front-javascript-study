@@ -271,3 +271,42 @@ console.log(sum(1, 2, 3, 4)); // 10
 console.log(sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // 55
 
 ```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+## 5️⃣ 화살표 함수 (Arrow function)
+
+```javascript
+const sum = (a, b) => {
+  return a + b;
+};
+console.log(sum(1, 2)); // 3
+```
+
+### 화살표 함수의 패턴
+
+- 화살표 함수는 항상 어떤 변수에다가 할당을해서 사용한다.
+  <br />
+
+```javascript
+const a = () => {};
+const b = (x) => {};
+const c = (x, y) => {};
+const d = (x) => {
+  return x * x;
+};
+const e = (x) => x * x;
+const f = (x) => {
+  console.log(x * x);
+  return x * x;
+};
+const g = () => {
+  return { a: 1 };
+};
+const h = () => ({ a: 1 });
+const i = () => {
+  return [1, 2, 3];
+};
+const j = () => [1, 2, 3];
+```
