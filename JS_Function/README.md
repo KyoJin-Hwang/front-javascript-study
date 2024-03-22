@@ -369,7 +369,7 @@ a(b); // B다음 A 가 나온다.
 const sum = (a, b, c) => {
   // setTimeout : 지연시켜주는 함수 (현재 여기서는 콜백으로 사용된다.)
   setTimeout(() => {
-    // c 는 sum의 세번째 매개변수의 함수를 실행시킨다.
+    // c 는 sum의 세번째 매개변수의 함수를 실행시킨다.✔
     c(a + b);
   }, 1000);
 };
@@ -380,4 +380,41 @@ sum(1, 2, (value) => {
 sum(3, 5, (value) => {
   console.log(value); // 8
 });
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+## 8️⃣ 재귀(Recursive)
+
+- 하나의 함수에서 그 함수 자기 자신을 다시 내부에서 호출하는 방식
+
+```javascript
+// 조건을 주지않으면 무한반복된다 그리고 컴퓨터가 터진다.💣
+let i = 0;
+const a = () => {
+  console.log("A");
+  i += 1;
+  if (i < 4) {
+    a();
+  }
+};
+
+a();
+
+// 객체로 재귀예시 만들어보기
+const userA = { name: "A", parent: null };
+const userB = { name: "B", parent: userA };
+const userC = { name: "C", parent: userB };
+const userD = { name: "D", parent: userC };
+
+const getRootUser = (user) => {
+  if (user.parent) {
+    // userB,C,D 는 parent가 이어져서 다시 함수를 호출한다.
+    return getRootUser(user.parent);
+  }
+  // 마지막으로 A에는 null 이기때문에 A객체가 나오게 된다.
+  return user;
+};
+console.log(getRootUser(userD));
 ```

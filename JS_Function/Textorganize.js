@@ -1,14 +1,14 @@
-const sum = (a, b, c) => {
-  // setTimeout : 지연시켜주는 함수 (현재 여기서는 콜백으로 사용된다.)
-  setTimeout(() => {
-    // c 는 sum의 세번째 매개변수의 함수를 실행시킨다.
-    c(a + b);
-  }, 1000);
-};
+const userA = { name: "A", parent: null };
+const userB = { name: "B", parent: userA };
+const userC = { name: "C", parent: userB };
+const userD = { name: "D", parent: userC };
 
-sum(1, 2, (value) => {
-  console.log(value);
-});
-sum(3, 5, (value) => {
-  console.log(value);
-});
+const getRootUser = (user) => {
+  if (user.parent) {
+    // userB,C,D 는 parent가 이어져서 다시 함수를 호출한다.
+    return getRootUser(user.parent);
+  }
+  // 마지막으로 A에는 null 이기때문에 A객체가 나오게 된다.
+  return user;
+};
+console.log(getRootUser(userD));
