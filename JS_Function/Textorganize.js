@@ -1,14 +1,16 @@
-const userA = { name: "A", parent: null };
-const userB = { name: "B", parent: userA };
-const userC = { name: "C", parent: userB };
-const userD = { name: "D", parent: userC };
-
-const getRootUser = (user) => {
-  if (user.parent) {
-    // userB,C,D 는 parent가 이어져서 다시 함수를 호출한다.
-    return getRootUser(user.parent);
-  }
-  // 마지막으로 A에는 null 이기때문에 A객체가 나오게 된다.
-  return user;
+const hello = () => {
+  console.log("Hello");
 };
-console.log(getRootUser(userD));
+
+// 스케줄
+const timeout = setTimeout(hello, 2000);
+// ex1) 곧바로 종료
+// clearTimeout 으로 인하여 timeout이 실행되지 않는다.
+clearTimeout(timeout);
+
+// ex2) h1 클릭으로 인해 종료
+const h1El = document.querySelector("h1");
+h1El.addEventListener("click", () => {
+  console.log("Clear!");
+  clearTimeout(timeout);
+});

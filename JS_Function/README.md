@@ -433,3 +433,29 @@ console.log(getRootUser(userD));
 - 자원을 효율적으로 사용하기 위해 자원을 사용하는 순서를 결정짓는 작업이다.
   <br/>
   ( 한마디로 복잡한 순서없이 깔끔하게 할일을 정리해서 하는 작업이다.)
+
+```javascript
+const hello = () => {
+  console.log("Hello");
+};
+
+// 스케줄
+const timeout = setTimeout(hello, 2000);
+// ex1) 곧바로 종료
+// clearTimeout 으로 인하여 timeout이 실행되지 않는다.
+clearTimeout(timeout);
+
+// ex2) h1 클릭으로 인해 종료
+const h1El = document.querySelector("h1");
+h1El.addEventListener("click", () => {
+  console.log("Clear!");
+  clearTimeout(timeout);
+});
+```
+
+### setTimeout과 setInterval 차이
+
+- setTimeout은 delay에 있는 시간 이후 한번만 실행한다.
+  - 종료는 clearTimeout 이다.
+- setInterval은 delay에 있는 시간마다 계속 실행한다.
+  - 종료는 clearInterval 이다.
