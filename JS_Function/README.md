@@ -277,6 +277,10 @@ console.log(sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // 55
 
 ## 5️⃣ 화살표 함수 (Arrow function)
 
+- 화살표 함수는 항상 어떤 변수에다가 할당을해서 사용한다.
+- 코드가 깔끔해보인다.
+  <br />
+
 ```javascript
 const sum = (a, b) => {
   return a + b;
@@ -285,9 +289,6 @@ console.log(sum(1, 2)); // 3
 ```
 
 ### 화살표 함수의 패턴
-
-- 화살표 함수는 항상 어떤 변수에다가 할당을해서 사용한다.
-  <br />
 
 ```javascript
 const a = () => {};
