@@ -11,9 +11,9 @@
 1. [반환 및 종료](#3%EF%B8%8F⃣-반환-및-종료)
 1. [매개변수 패턴](#4%EF%B8%8F⃣-매개변수-패턴-parameter-pattern)
 1. [화살표 함수](#5%EF%B8%8F⃣-화살표-함수-arrow-function)
-1. [즉시실행함수](#4%EF%B8%8F⃣-매개변수-패턴-parameter-pattern)
-1. [콜백](#4%EF%B8%8F⃣-매개변수-패턴-parameter-pattern)
-1. [재귀](#4%EF%B8%8F⃣-매개변수-패턴-parameter-pattern)
+1. [즉시실행함수](#6%EF%B8%8F⃣-즉시실행함수-iife-immediately-invoked-function-expression)
+1. [콜백](#7%EF%B8%8F⃣-콜백callback)
+1. [재귀](#8%EF%B8%8F⃣-재귀recursive)
 
 <br/>
 
