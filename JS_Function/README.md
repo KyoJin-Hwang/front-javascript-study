@@ -460,3 +460,6 @@ h1El.addEventListener("click", () => {
   - 종료는 clearTimeout 이다.
 - setInterval은 delay에 있는 시간마다 계속 실행한다.
   - 종료는 clearInterval 이다.
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
