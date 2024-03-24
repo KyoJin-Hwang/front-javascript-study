@@ -469,6 +469,7 @@ h1El.addEventListener("click", () => {
 - 자신이 속한 `객체` 또는 자신이 생성할 `인스턴스` 를 가리키는 자기 참조 변수
 - 일반 함수의 this는 호출 위치에서의 정의🎇
 - 화살표 함수의 this는 자신이 선언된 함수(렉시컬) 범위에서 정의🎇
+- `렉시컬이란?🧐` 함수가 동작할 수 있는 유효한 범위!!
 
 ```javascript
 
@@ -512,12 +513,52 @@ function user() {
   };
 }
 
+const friend = {
+  firstName: "Yonam",
+  lastName: "Youtube",
+};
+
 const u = user();
 console.log(u.getFullName()); // Kyojin Hwang
 console.log(u.getArrowFullName()); // Cold Owen
+console.log(u.getFullName.call(friend)); // Yonam Youtube
+
+----------------------------------------------
+
+// ex 3) 렉시컬 예제 만들기
+const timer = {
+  title: "TIMER!",
+  timeout() {
+    console.log(this.title);
+
+    // 아래의 setTimeout에서 일반함수를 사용하면 안되는이유❗
+    // setTimeout의 내부구조를 알 수 없기 때문에 undefined 가 나오게된다.
+    // 그래서 setTimeout을 화살표함수로 표기할 경우 timeout의 this를 바라본다.
+    setTimeout(() => {
+      // 콜백
+      console.log(this.title);
+    }, 1000);
+  },
+};
+
+timer.timeout(); // TIMER! (1초뒤) TIMER!
 
 
 ```
+
+### 🖐상단의 코드블럭( ex2예제 ) 기준으로
+
+### `속성` = property
+
+### `Method란?🧐`
+
+![alt text](image-2.png)
+
+- getFullName 과 getArrowFullName 같이 할당되는 함수
+
+### `멤버란?🧐`
+
+- 속성과 method가 합쳐진것
 
 ### this 일반함수 접근 ( 상단의 예제로 설명)
 

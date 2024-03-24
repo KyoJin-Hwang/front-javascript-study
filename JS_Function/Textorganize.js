@@ -1,20 +1,13 @@
-function user() {
-  this.firstName = "Cold";
-  this.lastName = "Owen";
+const timer = {
+  title: "TIMER!",
 
-  return {
-    firstName: "Kyojin",
-    lastName: "Hwang",
-    age: 28,
-    getFullName: function () {
-      return `${this.firstName} ${this.lastName}`;
-    },
-    getArrowFullName: () => {
-      return `${this.firstName} ${this.lastName}`;
-    },
-  };
-}
+  timeout() {
+    console.log(this.title);
+    setTimeout(function () {
+      // 콜백
+      console.log(this.title);
+    }, 1000);
+  },
+};
 
-const u = user();
-console.log(u.getFullName());
-console.log(u.getArrowFullName());
+timer.timeout();
