@@ -463,3 +463,12 @@ h1El.addEventListener("click", () => {
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
+## 🔟 this
+
+- 일반 함수의 this는 호출 위치에서의 정의
+- 화살표 함수의 this는 자신이 선언된 함수(렉시컬) 범위에서 정의
+
+```javascript
+
+```
