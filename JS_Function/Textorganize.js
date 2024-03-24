@@ -3,7 +3,8 @@ const user = {
   lastName: "Hwang",
   age: 28,
   getFullName: function () {
-    return `${this.firstName} ${this.lastName}`;
+    // user 안에서 사용하기 때문에 단순하게 this로 접근이 가능하다
+    return `${user.firstName} ${this.lastName}`;
   },
 };
 
