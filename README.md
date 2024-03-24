@@ -23,8 +23,8 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 
 <hr/>
 
-- [] **JavaScript Class**
-- <a href="">📖자바스크립트 클래스 (JavaScript Class) </a>
+- [ ] **📖자바스크립트 클래스 (JavaScript Class)**
+- <a href="">📖자바스크립트 클래스 (JavaScript Class)</a>
 
 
 <br/>
