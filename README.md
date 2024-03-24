@@ -18,8 +18,13 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 
 <hr/>
 
-- [ ] **JavaScript Function**
-- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Operator">JavaScript Function</a>
+- [x] ~~📐함수 설명 (JavaScript Function)~~
+- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Function">📐함수 설명 (JavaScript Function)</a>
+
+<hr/>
+
+- [ ] **📖자바스크립트 클래스 (JavaScript Class)**
+- <a href="">📖자바스크립트 클래스 (JavaScript Class)</a>
 
 
 <br/>
