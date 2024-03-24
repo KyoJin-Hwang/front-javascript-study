@@ -18,7 +18,7 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 
 <hr/>
 
-- [ ] **JavaScript Function**
+- [x] **JavaScript Function**
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Operator">JavaScript Function</a>
 
 
