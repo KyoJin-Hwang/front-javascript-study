@@ -521,7 +521,7 @@ console.log(u.getArrowFullName()); // Cold Owen
 
 ### this 일반함수 접근 ( 상단의 예제로 설명)
 
-![image](https://github.com/KyoJin-Hwang/front-javascript-study/assets/84490050/890e613c-2820-40db-907f-2ea239778131)
+![alt text](image-1.png)
 
 ### this 화살표함수 접근 ( 상단의 예제로 설명)
 
