@@ -18,7 +18,7 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 
 <hr/>
 
-- [x] ~~JavaScript Function~~
+- [x] ~~📐함수 설명 (JavaScript Function)~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Function">📐함수 설명 (JavaScript Function)</a>
 
 <hr/>
