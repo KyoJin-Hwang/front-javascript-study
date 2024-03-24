@@ -1,4 +1,4 @@
-# 📐함수 설명
+# 📐함수 설명 (JavaScript Function)
 
 `by Kyojin Hwang`
 
