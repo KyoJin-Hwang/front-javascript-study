@@ -467,9 +467,54 @@ h1El.addEventListener("click", () => {
 ## 🔟 this
 
 - 자신이 속한 `객체` 또는 자신이 생성할 `인스턴스` 를 가리키는 자기 참조 변수
-- 일반 함수의 this는 호출 위치에서의 정의
-- 화살표 함수의 this는 자신이 선언된 함수(렉시컬) 범위에서 정의
+- 일반 함수의 this는 호출 위치에서의 정의🎇
+- 화살표 함수의 this는 자신이 선언된 함수(렉시컬) 범위에서 정의🎇
 
 ```javascript
+
+// ex 1)
+const user = {
+  firstName: "Kyojin",
+  lastName: "Hwang",
+  age: 28,
+  // 일반함수 접근
+  getFullName: function () {
+    // user 안에서 사용하기 때문에 단순하게 this로 접근이 가능하다
+    return `${this.firstName} ${this.lastName}`;
+  },
+
+  // 화살표함수 접근
+  getArrowFullName:  () => {
+    return `${this.firstName} ${this.lastName}`;
+  },
+};
+
+console.log(user.getFullName()); // Kyojin Hwang
+console.log(user.getArrowFullName()); // undefined undefined
+
+----------------------------------------------
+
+// ex 2)
+function user() {
+  this.firstName = "Cold";
+  this.lastName = "Owen";
+
+  return {
+    firstName: "Kyojin",
+    lastName: "Hwang",
+    age: 28,
+    getFullName: function () {
+      return `${this.firstName} ${this.lastName}`;
+    },
+    getArrowFullName: () => {
+      return `${this.firstName} ${this.lastName}`;
+    },
+  };
+}
+
+const u = user();
+console.log(u.getFullName()); // Kyojin Hwang
+console.log(u.getArrowFullName()); // Cold Owen
+
 
 ```
