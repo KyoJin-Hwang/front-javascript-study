@@ -1,1 +1,0 @@
-const fruits = new Array();
