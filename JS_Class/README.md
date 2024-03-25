@@ -6,7 +6,7 @@
 
 ## 📚카테고리 (Category)
 
-1. [Prototype]()
+1. [Prototype](#1%EF%B8%8F⃣-prototype)
 
 <br/>
 
@@ -44,7 +44,7 @@ arr.kyojin(); // ['order]
 
 --------------------------------------------------
 
-// 1️⃣리터럴 방식
+// 🔊리터럴 방식
 
 const owen1 = {
   firstName: "Owen",
@@ -62,7 +62,7 @@ const kyo1 = {
 // kyo는 owen 이라는 리터럴객체에서 getFullName을 빌려썻다.
 console.log(owen1.getFullName.call(kyo1)); // Kyo Jin
 
-// 2️⃣생성자 함수 방식
+// 🔊생성자 함수 방식
 
 function User(first, last) {
   this.firstName = first;
