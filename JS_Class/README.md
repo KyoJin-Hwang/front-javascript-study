@@ -82,7 +82,11 @@ console.log(kyo2);
 console.log(owen2.getFullName());
 console.log(kyo2.getFullName());
 
+```
+**[⬆ back to top](#카테고리-category)**
+<br/>
 
-
+## 2️⃣ Class 기본문법 
+```javascript
 
 ```
