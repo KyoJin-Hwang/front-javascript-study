@@ -152,7 +152,7 @@ console.log(owen.getFullName()); // Owen Cold
 
 ## 3️⃣ Getter, Setter
 
-### Getter와 Setter 은 함수 호출 형식이 아닌, 일반 프로퍼티처럼 접근해서 사용된다.
+### 📌 1. Getter와 Setter 은 함수 호출 형식이 아닌, 일반 프로퍼티처럼 접근해서 사용된다.
 
 ### `예시1`
 
@@ -266,7 +266,7 @@ console.log(user.name); // owen
 
 ## 4️⃣ 정적메소드
 
-### 정적 메소드란?🧐
+### 📌 1. 정적 메소드란?🧐
 
 - `정적 메소드`는 `클래스`로 호출한다 vs `프로토타입 메소드`는 `인스턴스`로 호출한다.
 
