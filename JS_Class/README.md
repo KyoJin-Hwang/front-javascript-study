@@ -92,7 +92,7 @@ console.log(kyo2.getFullName());
 
 ## 2️⃣ Class 기본문법
 
-### Class란?🧐
+### 📌 1. Class란?🧐
 
 - 클래스의 이름은 `Korea`와 같이 대문자로 시작한다.
 - 클래스는 반드시 정의한 뒤에 사용할 수 있다.
