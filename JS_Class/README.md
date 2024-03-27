@@ -154,7 +154,7 @@ console.log(owen.getFullName()); // Owen Cold
 
 ### Getter와 Setter 은 함수 호출 형식이 아닌, 일반 프로퍼티처럼 접근해서 사용된다.
 
-`예시1`
+### `예시1`
 
 - New라는 키워드를 통해서 생성자 함수로 예시의 User클래스를 호출할 때 최초로 만들어지고
   그 다음부터는 firstName과 lastName이 바뀌더라도 전혀 변화가 되지않는다.
@@ -182,7 +182,7 @@ console.log(kyo.getFullName()); // Show Jin
 
 ```
 
-`예시1을 업그레이드하기 위한 Getter Setter `
+### `예시1을 업그레이드하기 위한 Getter Setter `
 
 ```javascript
 class User {
@@ -270,7 +270,7 @@ console.log(user.name); // owen
 
 - `정적 메소드`는 `클래스`로 호출한다 vs `프로토타입 메소드`는 `인스턴스`로 호출한다.
 
-`클래스 vs 인스턴스 메소드 차이`
+### `클래스 vs 인스턴스 메소드 차이`
 
 ```javascript
 class Phone {
@@ -293,7 +293,7 @@ Phone.isComplain();
 user.introduce();
 ```
 
-`static 사용법`
+### `static 사용법`
 
 ```javascript
 class User {
