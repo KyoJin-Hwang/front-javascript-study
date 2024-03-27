@@ -142,3 +142,117 @@ console.log(owen); // User {firstName: 'Owen', lastName: 'Cold'}
 console.log(kyo.getFullName()); // Kyo Jin
 console.log(owen.getFullName()); // Owen Cold
 ```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+## 3️⃣ Getter, Setter
+
+### Getter와 Setter 은 함수 호출 형식이 아닌, 일반 프로퍼티처럼 접근해서 사용된다.
+
+`예시1`
+
+- New라는 키워드를 통해서 생성자 함수로 예시의 User클래스를 호출할 때 최초로 만들어지고
+  그 다음부터는 firstName과 lastName이 바뀌더라도 전혀 변화가 되지않는다.
+
+```Javascript
+class User {
+  constructor(first, last) {
+    this.firstName = first;
+    this.lastName = last;
+    this.fullName = `${this.firstName} ${this.lastName}`;
+  }
+  getFullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
+}
+
+const kyo = new User("Kyo", "Jin");
+console.log(kyo); // User {firstName: 'Kyo', lastName: 'Jin', fullName: 'Kyo Jin'}
+console.log(kyo.getFullName()); // Kyo Jin
+
+kyo.firstName = "Show";
+// fullName이 바뀌지않는다. 그래서 getFullName의 메소드를 사용한다.
+console.log(kyo); // User {firstName: 'Show', lastName: 'Jin', fullName: 'Kyo Jin'}
+console.log(kyo.getFullName()); // Show Jin
+
+```
+
+`예시1을 업그레이드하기 위한 Getter Setter `
+
+```javascript
+class User {
+  constructor(first, last) {
+    this.firstName = first;
+    this.lastName = last;
+  }
+  get fullName() {
+    console.log("Getting full name!");
+    return `${this.firstName} ${this.lastName}`;
+  }
+  set fullName(value) {
+    [this.firstName, this.lastName] = value.split(" ");
+  }
+}
+
+const kyo = new User("Kyo", "Jin");
+console.log(kyo.fullName); // Kyo Jin
+
+kyo.firstName = "Show";
+console.log(kyo.fullName); // Show Jin
+
+kyo.fullName = "Show Me";
+console.log(kyo.fullName); // Show Me
+```
+
+![alt text](image.png)
+
+### 예시1 업그레이드 사진설명
+
+1. 21번코드줄에서의 `kyo.fullName = "Show Me"`는 setfullName에 value로 들어간다.
+2. 배열 구조분해할당으로 인해 this.firstName에는 `Show` this.lastName에는 `Me`가 들어간다.
+3. 22번코드줄에서의 fullName은 getfullName이 되며 아래의 set을 조회한다.
+
+<br/>
+<hr/>
+<br/>
+`Setter의 무한루프`
+
+- 접근자 프로퍼티의 이름을 중복이 되도록 하면 안된다.
+
+```javascript
+const user = {
+  name: "kyo",
+
+  get name() {
+    return user.name;
+  },
+
+  set name(value) {
+    user.name = value;
+  },
+};
+
+// user 객체의 name 프로퍼티 값을 변경
+user.name = "owen";
+// Error : Uncaught RangeError RangeError: Maximum call stack size exceeded
+
+-------------------------------------------------
+
+const user = {
+  _name: "kyo",
+
+  get name() {
+    return user._name;
+  },
+
+  set name(value) {
+    user._name = value;
+  },
+};
+
+// user 객체의 name 프로퍼티 값을 변경
+user._name = "owen";
+
+console.log(user.name); // owen
+```

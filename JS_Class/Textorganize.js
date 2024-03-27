@@ -1,17 +1,16 @@
-function User(first,last){
-  this.fristName = first
-  this.lastName = last
-}
+const user = {
+  _name: "kyo",
 
-User.prototype.getFullName = function () {
-  return `${this.fristName} ${this.lastName}`
-}
+  get name() {
+    return user._name;
+  },
 
-const kyo = new User('Kyo', 'Jin')
-const owen = new User('Owen', 'Cold')
+  set name(value) {
+    user._name = value;
+  },
+};
 
-console.log(kyo) // User {firstName: 'Kyo', lastName: 'Jin'}
-console.log(owen) // User {firstName: 'Owen', lastName: 'Cold'}
+// user 객체의 name 프로퍼티 값을 변경
+user._name = "owen"; // Uncaught RangeError RangeError: Maximum call stack size exceeded
 
-console.log(kyo.getFullName()) // Kyo Jin
-console.log(owen.getFullName()) // Owen Cold
+console.log(user.name);
