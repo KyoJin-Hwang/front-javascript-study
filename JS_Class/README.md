@@ -83,51 +83,62 @@ console.log(owen2.getFullName());
 console.log(kyo2.getFullName());
 
 ```
+
 **[⬆ back to top](#카테고리-category)**
 <br/>
 
-## 2️⃣ Class 기본문법 
+## 2️⃣ Class 기본문법
+
+### Class란?🧐
+
+- 클래스의 이름은 `Korea`와 같이 대문자로 시작한다.
+- 클래스는 반드시 정의한 뒤에 사용할 수 있다.
+- 클래스 내에 정의된 함수를 `method`라고 부른다
+- 클래스를 통해 생성된 객체를 `인스턴스(instance)`라고 부른다.
+
 ### `prototype`
+
 ```javascript
-function User(first,last){
-  this.fristName = first
-  this.lastName = last
+function User(first, last) {
+  this.fristName = first;
+  this.lastName = last;
 }
 
 User.prototype.getFullName = function () {
-  return `${this.fristName} ${this.lastName}`
-}
+  return `${this.fristName} ${this.lastName}`;
+};
 
-const kyo = new User('Kyo', 'Jin')
-const owen = new User('Owen', 'Cold')
+const kyo = new User("Kyo", "Jin");
+const owen = new User("Owen", "Cold");
 
-console.log(kyo) // User {firstName: 'Kyo', lastName: 'Jin'}
-console.log(owen) // User {firstName: 'Owen', lastName: 'Cold'}
+console.log(kyo); // User {firstName: 'Kyo', lastName: 'Jin'}
+console.log(owen); // User {firstName: 'Owen', lastName: 'Cold'}
 
-console.log(kyo.getFullName()) // Kyo Jin
-console.log(owen.getFullName()) // Owen Cold
+console.log(kyo.getFullName()); // Kyo Jin
+console.log(owen.getFullName()); // Owen Cold
 ```
 
 ### `class`
+
 ```javascript
 class User {
   // constructor 는 이전의 function User 역할을 한다
-  constructor(first, last){
-    this.firstName = first
-    this.lastName = last
+  constructor(first, last) {
+    this.firstName = first;
+    this.lastName = last;
   }
   // 쉼표를 쓰지않고 함수를 바로 작성한다.
-  getFullName(){
-    return `${this.firstName} ${this.lastName}`
+  getFullName() {
+    return `${this.firstName} ${this.lastName}`;
   }
 }
 
-const kyo = new User('Kyo', 'Jin')
-const owen = new User('Owen', 'Cold')
+const kyo = new User("Kyo", "Jin");
+const owen = new User("Owen", "Cold");
 
-console.log(kyo) // User {firstName: 'Kyo', lastName: 'Jin'}
-console.log(owen) // User {firstName: 'Owen', lastName: 'Cold'}
+console.log(kyo); // User {firstName: 'Kyo', lastName: 'Jin'}
+console.log(owen); // User {firstName: 'Owen', lastName: 'Cold'}
 
-console.log(kyo.getFullName()) // Kyo Jin
-console.log(owen.getFullName()) // Owen Cold
+console.log(kyo.getFullName()); // Kyo Jin
+console.log(owen.getFullName()); // Owen Cold
 ```
