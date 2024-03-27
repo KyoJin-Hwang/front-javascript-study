@@ -263,6 +263,35 @@ console.log(user.name); // owen
 
 ## 4️⃣ 정적메소드
 
+### 정적 메소드란?🧐
+
+- `정적 메소드`는 `클래스`로 호출한다 vs `프로토타입 메소드`는 `인스턴스`로 호출한다.
+
+`클래스 vs 인스턴스 메소드 차이`
+
+```javascript
+class Phone {
+  constructor(number) {
+    this.myNumber = number;
+  }
+  introduce() {
+    return console.log("프로토타입 메소드");
+  }
+  static isComplain() {
+    return console.log("정적 메소드");
+  }
+}
+// 인스턴스 생성
+const user = new Phone(7788);
+
+// 클래스
+Phone.isComplain();
+// 인스턴스
+user.introduce();
+```
+
+`static 사용법`
+
 ```javascript
 class User {
   constructor(first, last) {
