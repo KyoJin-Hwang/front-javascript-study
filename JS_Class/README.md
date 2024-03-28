@@ -357,4 +357,27 @@ console.log(User.isUser(roy)); // false
 
 ## 5️⃣ 상속과 instanceof
 
-### `예제1`
+### 📌 상속
+
+- `클래스 확장하기` : extends 키워드를 사용하여 확장한다.
+- `생성자 오버라이딩` : this를 사용하기 전에 Child 생성자 안에서 super()로 부모 생성자를 반드시 호출해야 합니다.
+
+<a href="">`상속 예제`</a>
+
+### 📌 instanceof
+
+- 키워드 앞쪽에 있는 데이터가 키워드 뒤쪽에 있는 클래스에서
+  인스턴스로 만들어져 있는지 확인하는 것
+
+`예제`
+
+```javascript
+class Rabbit {}
+const rabbit = new Rabbit();
+console.log(rabbit instanceof Rabbit); // true
+
+// Array 내장 클래스에서 사용하는법
+let arr = [1, 2, 3];
+console.log(arr instanceof Array); // true
+console.log(arr instanceof Object); // true
+```

@@ -29,9 +29,11 @@ class Bicycle extends Vehicle {
 }
 
 const bicycle = new Bicycle(300);
-bicycle.accelerate(); // Speed 1
-bicycle.accelerate(); // Speed 2
+bicycle.accelerate(); // 가속! 10
+bicycle.accelerate(); // 가속! 20
 console.log(bicycle); // Bicycle {speed: 2, acceleration: 1, price: 300, wheel: 2}
+console.log(bicycle instanceof Bicycle); // true
+console.log(bicycle instanceof Vehicle); // true
 
 // 자동차
 class Car extends Bicycle {
@@ -68,4 +70,5 @@ class Boat extends Vehicle {
   }
 }
 
-const 
+const boat = new Boat(3000, 5);
+console.log(boat); // Boat {speed: 0, acceleration: 5, price: 3000, motor: 1}
