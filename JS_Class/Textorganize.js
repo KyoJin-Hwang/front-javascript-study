@@ -29,7 +29,9 @@ class Bicycle extends Vehicle {
 }
 
 const bicycle = new Bicycle(300);
-console.log(bicycle); // Bicycle {speed: 0, acceleration: 1, price: 300, wheel: 2}
+bicycle.accelerate(); // Speed 1
+bicycle.accelerate(); // Speed 2
+console.log(bicycle); // Bicycle {speed: 2, acceleration: 1, price: 300, wheel: 2}
 
 // 자동차
 class Car extends Bicycle {
@@ -45,11 +47,16 @@ class Car extends Bicycle {
       return;
     }
     this.speed += this.acceleration;
-    console.log("가속!", this.spped);
+    console.log("가속!", this.speed);
   }
 }
 
 const carA = new Car(true, 7000, 10);
 const carB = new Car(false, 4000, 6);
-console.log(carA); // Car {speed: 0, acceleration: 10, price: 7000, wheel: 4, license: true}
+carA.accelerate(); // 가속! 10
+carA.accelerate(); // 가속! 20
+carB.accelerate(); // 무면허!
+console.log(carA); // Car {speed: 20, acceleration: 10, price: 7000, wheel: 4, license: true}
 console.log(carB); // Car {speed: 0, acceleration: 6, price: 4000, wheel: 4, license: false}
+
+// 보트
