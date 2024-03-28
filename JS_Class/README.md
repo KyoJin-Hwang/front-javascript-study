@@ -362,7 +362,7 @@ console.log(User.isUser(roy)); // false
 - `클래스 확장하기` : extends 키워드를 사용하여 확장한다.
 - `생성자 오버라이딩` : this를 사용하기 전에 Child 생성자 안에서 super()로 부모 생성자를 반드시 호출해야 합니다.
 
-<a href="">`상속 예제`</a>
+<a href="https://github.com/KyoJin-Hwang/front-javascript-study/blob/master/JS_Class/Inheritance.js">`상속 예제`</a>
 
 ### 📌 instanceof
 
