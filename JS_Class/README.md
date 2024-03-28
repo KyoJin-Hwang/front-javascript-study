@@ -354,3 +354,7 @@ console.log(User.isUser(roy)); // false
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
+## 5️⃣ 상속과 instanceof
+
+### `예제1`
