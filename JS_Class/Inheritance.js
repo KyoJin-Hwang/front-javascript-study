@@ -1,4 +1,4 @@
-<a href="">↩ 다시 ReadMe로</a>
+<a href="https://github.com/KyoJin-Hwang/front-javascript-study/blob/master/JS_Class/README.md">↩ 다시 ReadMe로</a>
 
 // 상속(Inheritance)
 
