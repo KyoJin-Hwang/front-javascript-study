@@ -382,3 +382,8 @@ let arr = [1, 2, 3];
 console.log(arr instanceof Array); // true
 console.log(arr instanceof Object); // true
 ```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+## 6️⃣ instanceof 와 constructor
