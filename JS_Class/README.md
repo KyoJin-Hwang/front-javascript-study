@@ -10,7 +10,7 @@
 1. [class 기본문법](#2%EF%B8%8F⃣-class-기본문법)
 1. [getter setter](#3%EF%B8%8F⃣-getter-setter)
 1. [정적메소드](#4%EF%B8%8F⃣-정적메소드)
-1. [상속 & instanceof ](#4%EF%B8%8F⃣-정적메소드)
+1. [상속 & instanceof ](#5%EF%B8%8F⃣-상속과-instanceof)
 
 <br/>
 
