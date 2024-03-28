@@ -1,18 +1,28 @@
-class Phone {
-  constructor(number) {
-    this.myNumber = number;
+// 상속(Inheritance)
+
+// 운송수단
+class Vehicle {
+  constructor(acceleration = 1) {
+    this.speed = 0;
+    this.acceleration = acceleration;
   }
-  introduce() {
-    return console.log("프로토타입 메소드");
+  accelerate() {
+    this.speed += this.acceleration;
   }
-  static isComplain() {
-    return console.log("정적 메소드");
+  decelerate() {
+    if (this.speed <= 0) {
+      console.log("정지!");
+      return;
+    }
+    this.speed -= this.acceleration;
   }
 }
-// 인스턴스 생성
-const user = new Phone(7788);
 
-// 클래스
-Phone.isComplain();
-// 인스턴스
-user.introduce();
+// 자전거
+class Bicycle extends Vehicle {
+  constructor(price = 100, acceleration) {
+    super(acceleration);
+    this.price = price;
+    this.wheel = 2;
+  }
+}
