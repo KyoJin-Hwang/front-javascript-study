@@ -388,3 +388,7 @@ console.log(arr instanceof Object); // true
 <br/>
 
 ## 6️⃣ instanceof 와 constructor
+<a href="https://github.com/KyoJin-Hwang/front-javascript-study/blob/master/JS_Class/classEx.js"> `Class 예제` </a>
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
