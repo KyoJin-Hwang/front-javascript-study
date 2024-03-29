@@ -23,8 +23,13 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 
 <hr/>
 
-- [ ] **📖자바스크립트 클래스 (JavaScript Class)**
+- [x] ~~📖자바스크립트 클래스 (JavaScript Class)~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Class">📖자바스크립트 클래스 (JavaScript Class)</a>
+
+<hr/>
+
+- [ ] **💼표준 내장 객체**
+- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Class">💼표준 내장 객체</a>
 
 
 <br/>

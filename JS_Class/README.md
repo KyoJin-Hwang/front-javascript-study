@@ -11,6 +11,7 @@
 1. [getter setter](#3%EF%B8%8F⃣-getter-setter)
 1. [정적메소드](#4%EF%B8%8F⃣-정적메소드)
 1. [상속 & instanceof ](#5%EF%B8%8F⃣-상속과-instanceof)
+1. [class 상속 예제 ](#6%EF%B8%8F⃣-instanceof-와-constructor)
 
 <br/>
 
@@ -387,3 +388,7 @@ console.log(arr instanceof Object); // true
 <br/>
 
 ## 6️⃣ instanceof 와 constructor
+<a href="https://github.com/KyoJin-Hwang/front-javascript-study/blob/master/JS_Class/classEx.js"> `Class 예제` </a>
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
