@@ -18,4 +18,4 @@ const c = new C();
 
 console.log(b instanceof A); // true
 console.log(b instanceof B); // true
-console.log(b instanceof C); // true
+console.log(b instanceof C); // false
