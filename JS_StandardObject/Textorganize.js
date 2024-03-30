@@ -1,13 +1,8 @@
-const str = "Hello world!";
+const str = "1234567";
+const str2 = "1234567890123";
 
-// 값이 있는지 없는지
-console.log(str.indexOf("Hello")); // 0
-console.log(str.indexOf("Kyo")); // -1
+// 문자 길이가 10개 될때까지 0으로 채운다
+console.log(str.padStart(10, "0")); // 0001234567
 
-// 몇번째부터 시작하고 있는지
-console.log(str.indexOf("world")); // 6
-
-// 조건문으로 사용하기
-if (str.indexOf("Kyo") === -1) {
-  console.log("Kyo 는 없습니다.");
-}
+// 초과하면 원래값 유지
+console.log(str2.padStart(10, "0")); // 1234567890123

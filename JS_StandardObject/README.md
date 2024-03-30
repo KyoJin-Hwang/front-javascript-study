@@ -51,6 +51,8 @@ if (!str.includes("Kyo")) {
 }
 ```
 
+<hr/>
+
 ### `📌indexOf()`
 
 ```javascript
@@ -87,6 +89,74 @@ console.log(str.indexOf("world")); // 6
 if (str.indexOf("Kyo") === -1) {
   console.log("Kyo 는 없습니다.");
 }
+```
+
+<hr/>
+
+### `📌padEnd()`
+
+```javascript
+// .📌padEnd()
+// 대상 문자의 길이(length)가 지정된 길이보다 작으면,
+// 주어진 문자를 지정된 길이까지 끝에 붙여 새로운 문자를 반환한다.
+
+str.padEnd(targetLength [, padString])
+```
+
+#### `targetLength`
+
+- 목표 문자열 길이. 현재 문자열의 길이보다 작다면 채워넣지 않고 그대로 반환.
+
+#### `padString`
+
+- 현재 문자열에 채워넣을 다른 문자열.
+- 문자열이 너무 길어 목표 문자열 길이를 초과한다면 좌측 일부를 잘라서 넣음.
+
+### 🎇예제
+
+```javascript
+const str = "1234567";
+const str2 = "1234567890123";
+
+// 문자 길이가 10개 될때까지 0으로 채운다
+console.log(str.padEnd(10, "0")); // 1234567000
+
+// 초과하면 원래값 유지
+console.log(str2.padEnd(10, "0")); // 1234567890123
+```
+
+<hr/>
+
+### `📌padStart()`
+
+```javascript
+// .padStart()
+// 대상 문자의 길이(length)가 지정된 길이보다 작으면,
+// 주어진 문자를 지정된 길이까지 앞쪽에 붙여 새로운 문자를 반환한다.
+
+str.padStart(targetLength [, padString])
+```
+
+#### `targetLength`
+
+목표 문자열 길이. 현재 문자열의 길이보다 작다면 채워넣지 않고 그대로 반환.
+
+#### `padString`
+
+- 현재 문자열에 채워넣을 다른 문자열.
+- 문자열이 너무 길어 목표 문자열 길이를 초과한다면 좌측 일부를 잘라서 넣음.
+
+### 🎇예제
+
+```javascript
+const str = "1234567";
+const str2 = "1234567890123";
+
+// 문자 길이가 10개 될때까지 0으로 채운다
+console.log(str.padStart(10, "0")); // 0001234567
+
+// 초과하면 원래값 유지
+console.log(str2.padStart(10, "0")); // 1234567890123
 ```
 
 **[⬆ back to top](#카테고리-category)**
