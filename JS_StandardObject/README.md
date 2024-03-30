@@ -13,7 +13,7 @@
    - [padstart](#padstart)
    
 
-## 1️⃣ 문자
+## 1️⃣ String Method
 
 ### <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String">String Mdn Site</a>
 
