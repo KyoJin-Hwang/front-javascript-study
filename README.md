@@ -28,8 +28,8 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 
 <hr/>
 
-- [ ] **💼표준 내장 객체**
-- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Class">💼표준 내장 객체</a>
+- [ ] **💼표준 내장 객체 (Standard Built-in Object)**
+- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_StandardObject">💼표준 내장 객체 (Standard Built-in Object)</a>
 
 
 <br/>
