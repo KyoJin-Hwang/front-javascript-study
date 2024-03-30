@@ -8,6 +8,10 @@
 
 - [문자](#1%EF%B8%8F⃣-문자)
    - [includes](#includes)
+   - [indexOf](#indexOf)
+   - [padend](#padend)
+   - [padstart](#padstart)
+   
 
 ## 1️⃣ 문자
 
