@@ -6,7 +6,7 @@
 
 ## 📚카테고리 (Category)
 
-- [String Method](#1%EF%B8%8F⃣-문자)
+- [String Method](#1%EF%B8%8F⃣-string-method)
    - [includes](#includes)
    - [indexOf](#indexOf)
    - [padend](#padend)
