@@ -7,11 +7,10 @@
 ## 📚카테고리 (Category)
 
 - [String Method](#1%EF%B8%8F⃣-string-method)
-   - [includes](#includes)
-   - [indexOf](#indexOf)
-   - [padend](#padend)
-   - [padstart](#padstart)
-   
+  - [includes](#includes)
+  - [indexOf](#indexOf)
+  - [padend](#padend)
+  - [padstart](#padstart)
 
 ## 1️⃣ String Method
 
@@ -162,6 +161,39 @@ console.log(str.padStart(10, "0")); // 0001234567
 
 // 초과하면 원래값 유지
 console.log(str2.padStart(10, "0")); // 1234567890123
+```
+
+<hr/>
+
+### `📌replace()`
+
+```javascript
+// .replace()
+// 대상 문자에서 패턴(문자, 정규식)과 일치하는 부분을 교체하여 새로운 문자를 반환한다.
+
+str.padStart(targetLength [, padString])
+```
+
+#### `targetLength`
+
+목표 문자열 길이. 현재 문자열의 길이보다 작다면 채워넣지 않고 그대로 반환.
+
+#### `padString`
+
+- 현재 문자열에 채워넣을 다른 문자열.
+- 문자열이 너무 길어 목표 문자열 길이를 초과한다면 좌측 일부를 잘라서 넣음.
+
+### 🎇예제
+
+```javascript
+const str = "Hello, Hello?!";
+
+// 일반 string 사용
+console.log(str.replace("Hello", "Hi"));
+// 정규표현식 사용
+console.log(str.replace(/Hello/g, "Hi"));
+
+console.log(str);
 ```
 
 **[⬆ back to top](#카테고리-category)**
