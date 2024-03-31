@@ -6,11 +6,16 @@
 
 ## 📚카테고리 (Category)
 
-- [String Method](#1%EF%B8%8F⃣-string-method)
-  - [includes](#includes)
-  - [indexOf](#indexOf)
-  - [padend](#padend)
-  - [padstart](#padstart)
+- [📝String Method](#1%EF%B8%8F⃣-string-method)
+  - [📌includes](#includes)
+  - [📌indexOf](#indexOf)
+  - [📌padend](#padend)
+  - [📌padstart](#padstart)
+  - [📌replace](#replace)
+  - [📌slice](#slice)
+  - [📌split](#split)
+  - [📌toLowerCase, toUpperCase](#-tolowercase--touppercase)
+  - [📌trim](#trim)
 
 ## 1️⃣ String Method
 
