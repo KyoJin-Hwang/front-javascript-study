@@ -226,5 +226,38 @@ console.log(str.slice(6, -1)); // wrold
 console.log(str.slice(6)); // wrold!
 ```
 
+<hr/>
+
+### `📌split()`
+
+```javascript
+// .split()
+// 대상 문자를 주어진 구분자로 나눠 배열로 반환한다.
+split(separator);
+str.split(separator, limit);
+```
+
+#### `separator`
+
+- 문자열을 나눌 때 사용할 구분자입니다. 문자열 또는 정규식으로 지정할 수 있습니다.
+
+#### `limit`
+
+- 문자열을 나눌 때 생성되는 배열의 최대 길이를 제한하는 정수입니다.
+- 기본값은 -1입니다. -1이면 구분자를 모두 사용하여 문자열을 나눕니다.
+- 최대 길이를 초과하여 남은 문자열은 반환하는 배열에 포함되지 않습니다.
+
+### 🎇예제
+
+```javascript
+const fruit = "Melon, Apple, Banana";
+
+console.log(fruit.split(",")); // ['Melon', ' Apple', ' Banana']
+
+console.log(fruit.split(",", 1)); // ['Melon']
+console.log(fruit.split(",", 2)); // ['Melon', ' Apple']
+console.log(fruit.split(",", 3)); // ['Melon', ' Apple', ' Banana']
+```
+
 **[⬆ back to top](#카테고리-category)**
 <br/>

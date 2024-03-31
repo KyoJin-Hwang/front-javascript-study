@@ -1,5 +1,7 @@
-const str = "Hello wrold!";
+const fruit = "Melon, Apple, Banana";
 
-console.log(str.slice(0, 5)); // Hello
-console.log(str.slice(6, -1)); // wrold
-console.log(str.slice(6)); // wrold!
+console.log(fruit.split(",")); // ['Melon', ' Apple', ' Banana']
+
+console.log(fruit.split(",", 1)); // ['Melon']
+console.log(fruit.split(",", 2)); // ['Melon', ' Apple']
+console.log(fruit.split(",", 3)); // ['Melon', ' Apple', ' Banana']
