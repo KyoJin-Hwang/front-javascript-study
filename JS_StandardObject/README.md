@@ -171,29 +171,28 @@ console.log(str2.padStart(10, "0")); // 1234567890123
 // .replace()
 // 대상 문자에서 패턴(문자, 정규식)과 일치하는 부분을 교체하여 새로운 문자를 반환한다.
 
-str.padStart(targetLength [, padString])
+str.replace(pattern, replacement);
 ```
 
-#### `targetLength`
+#### `pattern`
 
-목표 문자열 길이. 현재 문자열의 길이보다 작다면 채워넣지 않고 그대로 반환.
+- 찾을 대상이 되는 문자열 또는 정규 표현식 패턴입니다.
 
-#### `padString`
+#### `replacement`
 
-- 현재 문자열에 채워넣을 다른 문자열.
-- 문자열이 너무 길어 목표 문자열 길이를 초과한다면 좌측 일부를 잘라서 넣음.
+- 대체할 새로운 문자열이다.
 
 ### 🎇예제
 
 ```javascript
 const str = "Hello, Hello?!";
 
-// 일반 string 사용
-console.log(str.replace("Hello", "Hi"));
-// 정규표현식 사용
-console.log(str.replace(/Hello/g, "Hi"));
+console.log(str.replace("Hello", "Hi")); // Hi, Hello?!
 
-console.log(str);
+// 정규표현식 사용으로 전체 바꾸기
+console.log(str.replace(/Hello/g, "Hi")); // Hi, Hi?!
+
+console.log(str); // Hello, Hello?!
 ```
 
 **[⬆ back to top](#카테고리-category)**
