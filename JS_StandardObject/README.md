@@ -55,6 +55,9 @@ if (!str.includes("Kyo")) {
 }
 ```
 
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
 <hr/>
 
 ### `📌indexOf()`
@@ -95,6 +98,9 @@ if (str.indexOf("Kyo") === -1) {
 }
 ```
 
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
 <hr/>
 
 ### `📌padEnd()`
@@ -128,6 +134,9 @@ console.log(str.padEnd(10, "0")); // 1234567000
 // 초과하면 원래값 유지
 console.log(str2.padEnd(10, "0")); // 1234567890123
 ```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
 
 <hr/>
 
@@ -163,6 +172,9 @@ console.log(str.padStart(10, "0")); // 0001234567
 console.log(str2.padStart(10, "0")); // 1234567890123
 ```
 
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
 <hr/>
 
 ### `📌replace()`
@@ -195,6 +207,17 @@ console.log(str.replace(/Hello/g, "Hi")); // Hi, Hi?!
 console.log(str); // Hello, Hello?!
 ```
 
+### 🎇예제(replaceAll : 정규식을 사용하지않고 전체 바꾸고 싶을때)
+
+```javascript
+const str = "Hello, Hello?!";
+
+console.log(str.replaceAll("Hello", "Hi")); // Hi, Hi?!
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
 <hr/>
 
 ### `📌slice()`
@@ -225,6 +248,9 @@ console.log(str.slice(0, 5)); // Hello
 console.log(str.slice(6, -1)); // wrold
 console.log(str.slice(6)); // wrold!
 ```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
 
 <hr/>
 
@@ -257,6 +283,65 @@ console.log(fruit.split(",")); // ['Melon', ' Apple', ' Banana']
 console.log(fruit.split(",", 1)); // ['Melon']
 console.log(fruit.split(",", 2)); // ['Melon', ' Apple']
 console.log(fruit.split(",", 3)); // ['Melon', ' Apple', ' Banana']
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+<hr/>
+
+### `📌 toLowerCase() , toUpperCase()`
+
+```javascript
+// .toLowerCase()
+// 대상 문자를 모두 영어 소문자로 변환해 새로운 문자로 반환한다.
+toLowerCase();
+```
+
+### 🎇예제
+
+```javascript
+const str = "APPLE, Banana, CHeRRy";
+
+console.log(str.toLowerCase()); // apple, banana, cherry
+```
+
+```javascript
+// .toUpperCase()
+// 대상 문자를 모두 영어 대문자로 변환해 새로운 문자로 반환한다.
+toUpperCase();
+```
+
+### 🎇예제
+
+```javascript
+const str = "APPLE, Banana, CHeRRy";
+
+console.log(str.toUpperCase()); // APPLE, BANANA, CHERRY
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+<hr/>
+
+### `📌trim()`
+
+```javascript
+// .trim()
+// 대상 문자의 앞뒤 공백 문자(space, tab 등)를 제거한 새로운 문자를 반환한다.
+trim();
+```
+
+### 🎇예제
+
+```javascript
+const str = " Hey Kyo Come on! ";
+console.log(str.trim()); // Hey Kyo Come on!
+
+// 한글포함 test
+const str2 = " Kyo 진아 여기로와! ";
+console.log(str2.trim()); // Kyo 진아 여기로와!
 ```
 
 **[⬆ back to top](#카테고리-category)**

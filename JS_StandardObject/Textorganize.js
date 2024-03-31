@@ -1,7 +1,6 @@
-const fruit = "Melon, Apple, Banana";
+const str = " Hey Kyo Come on! ";
+console.log(str.trim());
 
-console.log(fruit.split(",")); // ['Melon', ' Apple', ' Banana']
-
-console.log(fruit.split(",", 1)); // ['Melon']
-console.log(fruit.split(",", 2)); // ['Melon', ' Apple']
-console.log(fruit.split(",", 3)); // ['Melon', ' Apple', ' Banana']
+// 한글포함 test
+const str2 = " Kyo 진아 여기로와! ";
+console.log(str2.trim());
