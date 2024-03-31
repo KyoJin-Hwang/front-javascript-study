@@ -195,5 +195,36 @@ console.log(str.replace(/Hello/g, "Hi")); // Hi, Hi?!
 console.log(str); // Hello, Hello?!
 ```
 
+<hr/>
+
+### `📌slice()`
+
+```javascript
+// .slice()
+// 대상 문자의 일부를 추출하여 새로운 문자를 반환한다.
+// 두 번째 인수 직전까지 추출하고, 두 번째 인수를 생략하면 대상 문자의 끝까찌 추출한다.
+
+str.slice(indexStart);
+str.slice(indexStart, indexEnd);
+```
+
+#### `indexStart`
+
+- 반환된 하위 문자열에 포함할 첫 번째 문자의 인덱스입니다.
+
+#### `indexEnd`
+
+- 반환된 하위 문자열에서 제외할 첫 번째 문자의 인덱스입니다.
+
+### 🎇예제
+
+```javascript
+const str = "Hello wrold!";
+
+console.log(str.slice(0, 5)); // Hello
+console.log(str.slice(6, -1)); // wrold
+console.log(str.slice(6)); // wrold!
+```
+
 **[⬆ back to top](#카테고리-category)**
 <br/>

@@ -1,5 +1,5 @@
-const str = "Hello, Hello?!";
+const str = "Hello wrold!";
 
-console.log(str.replace("Hello", "Hi")); // Hi, Hello?!
-console.log(str.replace(/Hello/g, "Hi")); // Hi, Hi?!
-console.log(str); // Hello, Hello?!
+console.log(str.slice(0, 5)); // Hello
+console.log(str.slice(6, -1)); // wrold
+console.log(str.slice(6)); // wrold!
