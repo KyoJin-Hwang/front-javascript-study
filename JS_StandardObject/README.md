@@ -351,3 +351,84 @@ console.log(str2.trim()); // Kyo 진아 여기로와!
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
+## 1️⃣ Number Method
+
+### `📌toFixed()`
+
+```javascript
+// .toFixed()
+// 숫자를 지정된 고정 소수점 표기(자릿수)까지 표현하는 문자로 반환한다.
+
+numObj.toFixed([digits]);
+```
+
+#### `digits`
+
+- 소수점 뒤에 나타날 자릿수. 0 이상 20 이하의 값을 사용할 수 있다
+- 구현체에 따라 더 넓은 범위의 값을 지원할 수도 있다.
+- 값을 지정하지 않으면 0을 사용한다.
+
+### 🎇예제
+
+```javascript
+const num = 3.1414926535;
+
+// 문자데이터
+console.log(num.toFixed(2)); // 3.14 문자타입
+
+//parseFloat 으로 숫자데이터로 변경
+console.log(parseFloat(num.toFixed(2))); // 3.14 숫자타입
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+### `📌toLocaleString()`
+
+```javascript
+// .toLocaleString()
+// 숫자를 현지 언어 형식의 문자로 반환한다.
+
+toLocaleString();
+```
+
+### 🎇예제
+
+```javascript
+const num = 1000000;
+
+console.log(num.toLocaleString()); // 1,000,000
+console.log(`${num.toLocaleString()}원`); // 1,000,000원
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+### `📌toLocaleString()`
+
+```javascript
+// .toLocaleString()
+// 숫자를 문자형식으로 변환한다.
+
+toLocaleString();
+```
+
+#### `locales`
+
+-
+
+### 🎇예제
+
+```javascript
+const num = 3.1414926535;
+
+// 문자데이터
+console.log(num.toFixed(2)); // 3.14 문자타입
+
+//parseFloat 으로 숫자데이터로 변경
+console.log(parseFloat(num.toFixed(2))); // 3.14 숫자타입
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>

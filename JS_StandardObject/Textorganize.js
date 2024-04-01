@@ -1,6 +1,4 @@
-const str = " Hey Kyo Come on! ";
-console.log(str.trim());
+const num = 1000000;
 
-// 한글포함 test
-const str2 = " Kyo 진아 여기로와! ";
-console.log(str2.trim());
+console.log(num.toLocaleString()); // 1,000,000
+console.log(`${num.toLocaleString()}원`); // 1,000,000원
