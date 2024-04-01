@@ -405,29 +405,54 @@ console.log(`${num.toLocaleString()}원`); // 1,000,000원
 **[⬆ back to top](#카테고리-category)**
 <br/>
 
-### `📌toLocaleString()`
+### `📌Number.isInteger()`
 
 ```javascript
-// .toLocaleString()
-// 숫자를 문자형식으로 변환한다.
+// .Number.isInteger()
+// 숫자가 정수 인지 확인한다.
 
-toLocaleString();
+Number.isSafeInteger(testValue);
 ```
 
-#### `locales`
+#### `return`
 
--
+- true주어진 값이 안전한 정수인 경우 부울 값 입니다. 그렇지 않으면 false.
 
 ### 🎇예제
 
 ```javascript
-const num = 3.1414926535;
+const num = 123;
+const pi = 3.14;
 
-// 문자데이터
-console.log(num.toFixed(2)); // 3.14 문자타입
+console.log(Number.isInteger(num)); // true
+console.log(Number.isInteger(pi)); // false
+```
 
-//parseFloat 으로 숫자데이터로 변경
-console.log(parseFloat(num.toFixed(2))); // 3.14 숫자타입
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+### `📌Number.parseInt() or parseInt()`
+
+```javascript
+// .parseInt()
+// 주어진 값을 파싱해 특정 진수의 정수로 반환한다.
+
+Number.parseInt(string);
+Number.parseInt(string, radix);
+```
+
+#### `return`
+
+- true주어진 값이 안전한 정수인 경우 부울 값 입니다. 그렇지 않으면 false.
+
+### 🎇예제
+
+```javascript
+const num = 123;
+const pi = 3.14;
+
+console.log(Number.isInteger(num)); // true
+console.log(Number.isInteger(pi)); // false
 ```
 
 **[⬆ back to top](#카테고리-category)**
