@@ -441,18 +441,25 @@ Number.parseInt(string);
 Number.parseInt(string, radix);
 ```
 
-#### `return`
+#### `string`
 
-- true주어진 값이 안전한 정수인 경우 부울 값 입니다. 그렇지 않으면 false.
+- 구문 분석할 값으로, string 으로 강제 변환된다.
+- 이 인수의 선행 공백은 무시한다.
+
+#### `radix`
+
+- 2진수부터 36진수 까지 들어갈 수 있다.
+- 를 제외한 나머지는 0 으로 간주한다.
 
 ### 🎇예제
 
 ```javascript
-const num = 123;
-const pi = 3.14;
+const str = "123";
+const num = 3.14;
 
-console.log(Number.isInteger(num)); // true
-console.log(Number.isInteger(pi)); // false
+// number 데이터
+console.log(Number.parseInt(str, 10)); // 123
+console.log(Number.parseInt(num, 10)); // 3
 ```
 
 **[⬆ back to top](#카테고리-category)**
