@@ -18,7 +18,7 @@
   - [📌trim](#trim)
 - [📝Number_Method](#2%EF%B8%8F⃣-number-method)
   - [📌tofixed](#tofixed)
-  - [📌toLocaleString](##tolocalestring)
+  - [📌toLocaleString](#tolocalestring)
   - [📌NumberisInteger](#numberisinteger)
   - [📌Numberparseint-Or-Parseint](#numberparseint-or-parseint)
 
