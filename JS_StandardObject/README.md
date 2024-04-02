@@ -352,7 +352,7 @@ console.log(str2.trim()); // Kyo 진아 여기로와!
 **[⬆ back to top](#카테고리-category)**
 <br/>
 
-## 1️⃣ Number Method
+## 2️⃣ Number Method
 
 ### `📌toFixed()`
 
