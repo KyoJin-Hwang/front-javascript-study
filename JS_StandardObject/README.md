@@ -16,6 +16,7 @@
   - [📌split](#split)
   - [📌toLowerCase, toUpperCase](#-tolowercase--touppercase)
   - [📌trim](#trim)
+- [📝Number_Method](#2%EF%B8%8F⃣-number-method)
 
 ## 1️⃣ String Method
 
