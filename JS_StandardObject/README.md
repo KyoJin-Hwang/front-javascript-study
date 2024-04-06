@@ -22,6 +22,8 @@
   - [📌NumberisInteger](#numberisinteger)
   - [📌Numberparseint-Or-Parseint](#numberparseint-or-parseint)
 - [📝Math_Method](#3%EF%B8%8F⃣-math-method)
+  - [📌Math](#tofixed)
+  - [📌tofixed](#tofixed)
   - [📌tofixed](#tofixed)
 
 
