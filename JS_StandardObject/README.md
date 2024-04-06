@@ -492,12 +492,35 @@ Math.abs(x);
 ### 🎇예제
 
 ```javascript
-const str = "123";
-const num = 3.14;
+console.log(Math.abs(2)); // 2
+console.log(Math.abs(-2)); // 2
+```
 
-// number 데이터
-console.log(Number.parseInt(str, 10)); // 123
-console.log(Number.parseInt(num, 10)); // 3
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+### `📌Math.abs()`
+
+```javascript
+// Math.abs()
+// 주어진 숫자의 절댓값을 반환한다.
+
+Math.abs(x);
+```
+
+#### `x`
+
+- 숫자
+
+#### 반환값
+
+- 주어진 숫자의 절대값
+
+### 🎇예제
+
+```javascript
+console.log(Math.abs(2)); // 2
+console.log(Math.abs(-2)); // 2
 ```
 
 **[⬆ back to top](#카테고리-category)**
