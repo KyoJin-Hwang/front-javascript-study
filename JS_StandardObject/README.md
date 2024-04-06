@@ -520,6 +520,7 @@ Math.ceil(x);
 
 ```javascript
 console.log(Math.ceil(3.1415926535)); // 4
+console.log(Math.ceil(-1.5)); // -1
 ```
 
 **[⬆ back to top](#카테고리-category)**
@@ -540,13 +541,18 @@ Math.floor(x);
 
 #### 반환값
 
-- 주어진 숫자보다 크거나 같은 숫자 중 가장 작은 숫자
+- 주어진 수 이하의 가장 큰 정수.
 
 ### 🎇예제
 
 ```javascript
-console.log(Math.ceil(3.1415926535)); // 4
+console.log(Math.floor(3.815926535)); // 3
+console.log(Math.floor(3.415926535)); // 3
+console.log(Math.floor(-1.1)); // -2
+console.log(Math.floor(-1.7)); // -2
 ```
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
+### `📌Math.round()`

@@ -1,3 +1,4 @@
-console.log(Math.ceil(3.1415926535)); // 4
-console.log(Math.ceil(-1.5)); // -1
-console.log(Math.ceil(-1)); // -1
+console.log(Math.floor(3.815926535)); // 3
+console.log(Math.floor(3.415926535)); // 3
+console.log(Math.floor(-1.1)); // -2
+console.log(Math.floor(-1.7)); // -2
