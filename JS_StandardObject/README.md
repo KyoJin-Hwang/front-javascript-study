@@ -478,7 +478,7 @@ console.log(Number.parseInt(num, 10)); // 3
 
 ## 3️⃣ Math Method
 
-### `📌Math.abs()`
+### `📌.abs()`
 
 ```javascript
 // Math.abs()
@@ -505,7 +505,7 @@ console.log(Math.abs(-2)); // 2
 **[⬆ back to top](#카테고리-category)**
 <br/>
 
-### `📌Math.ceil()`
+### `📌.ceil()`
 
 ```javascript
 // Math.ceil()
@@ -532,7 +532,7 @@ console.log(Math.ceil(-1.5)); // -1
 **[⬆ back to top](#카테고리-category)**
 <br/>
 
-### `📌Math.floor()`
+### `📌.floor()`
 
 ```javascript
 // Math.floor()
@@ -561,4 +561,4 @@ console.log(Math.floor(-1.7)); // -2
 **[⬆ back to top](#카테고리-category)**
 <br/>
 
-### `📌Math.round()`
+### `📌.round()`
