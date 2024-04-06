@@ -362,6 +362,7 @@ console.log(str2.trim()); // Kyo 진아 여기로와!
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+<hr/>
 
 ## 2️⃣ Number Method
 
@@ -394,6 +395,7 @@ console.log(parseFloat(num.toFixed(2))); // 3.14 숫자타입
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+<hr/>
 
 ### `📌toLocaleString()`
 
@@ -415,6 +417,7 @@ console.log(`${num.toLocaleString()}원`); // 1,000,000원
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+<hr/>
 
 ### `📌Number.isInteger()`
 
@@ -441,6 +444,7 @@ console.log(Number.isInteger(pi)); // false
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+<hr/>
 
 ### `📌Number.parseInt() or parseInt()`
 
@@ -475,6 +479,7 @@ console.log(Number.parseInt(num, 10)); // 3
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+<hr/>
 
 ## 3️⃣ Math Method
 
@@ -504,6 +509,7 @@ console.log(Math.abs(-2)); // 2
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+<hr/>
 
 ### `📌ceil()`
 
@@ -531,6 +537,7 @@ console.log(Math.ceil(-1.5)); // -1
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+<hr/>
 
 ### `📌floor()`
 
@@ -560,5 +567,6 @@ console.log(Math.floor(-1.7)); // -2
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+<hr/>
 
 ### `📌round()`
