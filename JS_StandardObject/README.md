@@ -28,6 +28,7 @@
   - [📌round](#round)
   - [📌max](#max)
   - [📌min](#min)
+  - [📌pow](#pow)
   - [📌random](#random)
 
 ## 1️⃣ String Method
