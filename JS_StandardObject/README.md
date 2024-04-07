@@ -661,3 +661,76 @@ console.log(Math.min(-10, 1, 20, 40, 100)); // -10
 <br/>
 
 <hr/>
+
+### `📌pow()`
+
+```javascript
+// Math.pow()
+// 주어진 숫자의 거듭제곱한 값을 반환한다.
+
+Math.pow(base, exponent);
+```
+
+#### `base`
+
+- 제곱할 값.
+
+#### `exponent`
+
+- 값 을 제곱하기 위해 사용하는 지수.
+
+### 🎇예제
+
+```javascript
+console.log(Math.pow(2, 2)); // 4
+console.log(Math.pow(5, 3)); // 125
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+<hr/>
+
+### `📌random()`
+
+```javascript
+// Math.pow()
+// 숫자 0 이상, 1 미만의 난수를 반환한다.
+
+Math.random();
+```
+
+#### 반환 값
+
+- 0 이상 1 미만의 부동소숫점 의사 난수.
+
+### 🎇예제
+
+```javascript
+console.log(Math.random()); // 0.0919170172899968
+
+// 1. 0 ~ 10을 포함한 정수 난수 얻는 함수
+function random1() {
+  return Math.floor(Math.random() * 10) + 1;
+}
+
+// 2. 특정 범위의 랜덤 정수를 얻는 함수
+function random2(min = 0, max = 10) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+// 1부터 10까지
+console.log(random1());
+
+// 0부터 10까지
+console.log(random2());
+// 1부터 20까지
+console.log(random2(11, 20));
+// 101부터 999까지
+console.log(random2(101, 999));
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+<hr/>
