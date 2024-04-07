@@ -1,4 +1,5 @@
-console.log(Math.floor(3.815926535)); // 3
-console.log(Math.floor(3.415926535)); // 3
-console.log(Math.floor(-1.1)); // -2
-console.log(Math.floor(-1.7)); // -2
+const num1 = 3.5;
+const num2 = 3.4;
+
+console.log(Math.round(num1)); // 4
+console.log(Math.round(num2)); // 3

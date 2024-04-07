@@ -27,7 +27,6 @@
   - [📌floor](#floor)
   - [📌round](#round)
 
-
 ## 1️⃣ String Method
 
 ### <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String">String Mdn Site</a>
@@ -362,6 +361,7 @@ console.log(str2.trim()); // Kyo 진아 여기로와!
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
 <hr/>
 
 ## 2️⃣ Number Method
@@ -395,6 +395,7 @@ console.log(parseFloat(num.toFixed(2))); // 3.14 숫자타입
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
 <hr/>
 
 ### `📌toLocaleString()`
@@ -417,6 +418,7 @@ console.log(`${num.toLocaleString()}원`); // 1,000,000원
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
 <hr/>
 
 ### `📌Number.isInteger()`
@@ -444,6 +446,7 @@ console.log(Number.isInteger(pi)); // false
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
 <hr/>
 
 ### `📌Number.parseInt() or parseInt()`
@@ -479,6 +482,7 @@ console.log(Number.parseInt(num, 10)); // 3
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
 <hr/>
 
 ## 3️⃣ Math Method
@@ -509,6 +513,7 @@ console.log(Math.abs(-2)); // 2
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
 <hr/>
 
 ### `📌ceil()`
@@ -537,6 +542,7 @@ console.log(Math.ceil(-1.5)); // -1
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
 <hr/>
 
 ### `📌floor()`
@@ -567,6 +573,37 @@ console.log(Math.floor(-1.7)); // -2
 
 **[⬆ back to top](#카테고리-category)**
 <br/>
+
 <hr/>
 
 ### `📌round()`
+
+```javascript
+// Math.floor()
+// 주어진 숫자를 반올림하여 정수를 반환한다.
+
+Math.round(x);
+```
+
+#### `x`
+
+- 숫자
+
+#### 반환값
+
+- 입력값을 반올림한 값과 가장 가까운 정수를 의미합니다.
+
+### 🎇예제
+
+```javascript
+const num1 = 3.5;
+const num2 = 3.4;
+
+console.log(Math.round(num1)); // 4
+console.log(Math.round(num2)); // 3
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+<hr/>
