@@ -26,6 +26,9 @@
   - [📌ceil](#ceil)
   - [📌floor](#floor)
   - [📌round](#round)
+  - [📌max](#max)
+  - [📌min](#min)
+  - [📌random](#random)
 
 ## 1️⃣ String Method
 
