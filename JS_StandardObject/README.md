@@ -1,4 +1,4 @@
-# 💼표준 내장 객체 (Standard Built-in Object)
+# 💼표준 내장 객체 (Standard Built-in Object) - 문자, 숫자, 수학
 
 `by Kyojin Hwang`
 
