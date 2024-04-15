@@ -6,13 +6,13 @@
 
 ## 📚카테고리 (Category)
 
-- [⏰Date]()
+- [⏰Date란?]()
 - [⏰Date Method]()
   - [📌getFullYear(), setFullYear()]()
   - [📌getMonth(), setMonth()]()
   - [📌getDate(), setDate()]()
 
-## ⏰Date
+## ⏰Date란?
 
 - Date 객체는 생성자 함수이다.
 - Date 생성자 함수는 날짜와 시간을 가지는 인스턴스를 생성한다.
