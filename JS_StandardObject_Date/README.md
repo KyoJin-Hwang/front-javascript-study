@@ -9,6 +9,8 @@
 - [⏰Date]()
 - [⏰Date Method]()
   - [📌getFullYear(), setFullYear()]()
+  - [📌getMonth(), setMonth()]()
+  - [📌getDate(), setDate()]()
 
 ## ⏰Date
 
