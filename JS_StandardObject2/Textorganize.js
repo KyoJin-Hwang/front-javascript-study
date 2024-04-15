@@ -1,12 +1,12 @@
 const date = new Date();
 
-console.log(date.getMonth() + 1);
-// 4
+console.log(date.getDate());
+// 15
 console.log(date);
-// Mon Apr 15 2024 22:57:36 GMT+0900 (대한민국 표준시)
+// Mon Apr 15 2024 23:04:29 GMT+0900 (대한민국 표준시)
 
-date.setMonth(5);
-console.log(date.getMonth());
-// 5
+date.setDate(11);
+console.log(date.getDate());
+// 11
 console.log(date);
-// Sat Jun 15 2024 23:01:10 GMT+0900 (대한민국 표준시)
+// Thu Apr 11 2024 23:04:29 GMT+0900 (대한민국 표준시)
