@@ -52,3 +52,26 @@ console.log(date.getFullYear());
 console.log(date);
 // Tue Apr 15 2025 22:54:21 GMT+0900 (대한민국 표준시)
 ```
+
+<hr />
+<br />
+
+### 📌getMonth(), setMonth()
+
+- 날짜 인스턴스의 `월`을 반환하거나 지정한다.
+- '월'은 0부터 시작한다. (Zero-based numbering)
+
+```javascript
+const date = new Date();
+
+console.log(date.getMonth() + 1);
+// 4
+console.log(date);
+// Mon Apr 15 2024 22:57:36 GMT+0900 (대한민국 표준시)
+
+date.setMonth(5);
+console.log(date.getMonth());
+// 5
+console.log(date);
+// Sat Jun 15 2024 23:01:10 GMT+0900 (대한민국 표준시)
+```
