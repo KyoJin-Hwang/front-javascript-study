@@ -8,9 +8,9 @@
 
 - [⏰Date란?](#date란)
 - [⏰Date Method]()
-  - [📌getFullYear(), setFullYear()]()
-  - [📌getMonth(), setMonth()]()
-  - [📌getDate(), setDate()]()
+  - [📌getFullYear(), setFullYear()](#getfullyear-setfullyear)
+  - [📌getMonth(), setMonth()](#getmonth-setmonth)
+  - [📌getDate(), setDate()](#getdate-setdate)
 
 ## ⏰Date란?
 
