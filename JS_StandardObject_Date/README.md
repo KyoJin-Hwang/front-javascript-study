@@ -11,6 +11,7 @@
   - [📌getFullYear(), setFullYear()](#getfullyear-setfullyear)
   - [📌getMonth(), setMonth()](#getmonth-setmonth)
   - [📌getDate(), setDate()](#getdate-setdate)
+  - [📌getHours(), setHours()]()
 
 ## ⏰Date란?
 
@@ -103,3 +104,54 @@ console.log(date.getDate());
 console.log(date);
 // Thu Apr 11 2024 23:04:29 GMT+0900 (대한민국 표준시)
 ```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌getHours(), setHours()
+
+- 날짜 인스턴스의 `시간`을 반환하거나 지정한다.
+
+```javascript
+const date = new Date();
+
+console.log(date.getHours()); // 13
+console.log(date);
+// Fri Apr 19 2024 13:55:46 GMT+0900 (대한민국 표준시)
+
+date.setHours(7);
+
+console.log(date.getHours()); // 7
+console.log(date);
+// Fri Apr 19 2024 07:55:46 GMT+0900 (대한민국 표준시)
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌getHours(), setHours()
+
+- 날짜 인스턴스의 `시간`을 반환하거나 지정한다.
+
+```javascript
+const date = new Date();
+
+console.log(date.getHours()); // 13
+console.log(date);
+// Fri Apr 19 2024 13:55:46 GMT+0900 (대한민국 표준시)
+
+date.setHours(7);
+
+console.log(date.getHours()); // 7
+console.log(date);
+// Fri Apr 19 2024 07:55:46 GMT+0900 (대한민국 표준시)
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
