@@ -11,8 +11,9 @@
   - [📌getFullYear(), setFullYear()](#getfullyear-setfullyear)
   - [📌getMonth(), setMonth()](#getmonth-setmonth)
   - [📌getDate(), setDate()](#getdate-setdate)
-  - [📌getHours(), setHours()]()
+  - [📌getHours(), setHours()](#gethours-sethours)
   - [📌getMinutes(), setMinutes()](#getminutes-setminutes)
+  - [📌getSeconds(), setSeconds()](#getseconds-setseconds)
 
 ## ⏰Date란?
 
