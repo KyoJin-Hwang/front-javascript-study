@@ -155,3 +155,104 @@ console.log(date);
 
 <hr />
 <br/>
+
+### 📌getSeconds(), setSeconds()
+
+- 날짜 인스턴스의 `초`을 반환하거나 지정한다.
+
+```javascript
+const date = new Date();
+
+console.log(date.getMinutes()); // 58
+console.log(date);
+// Fri Apr 19 2024 13:58:04 GMT+0900 (대한민국 표준시)
+
+date.setMinutes(5);
+
+console.log(date.getMinutes()); // 5
+console.log(date);
+// Fri Apr 19 2024 13:05:04 GMT+0900 (대한민국 표준시)
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌getDay()
+
+- 날짜 인스턴스의 '요일' 을 반환한다.
+
+```javascript
+const date = new Date();
+const day = date.getDay();
+
+console.log(day); // 토
+console.log(getDayFuc(day)); // 토요일
+
+function getDayFuc(day) {
+  switch (day) {
+    case 0:
+      return "일요일";
+    case 1:
+      return "월요일";
+    case 2:
+      return "화요일";
+    case 3:
+      return "수요일";
+    case 4:
+      return "목요일";
+    case 5:
+      return "금요일";
+    case 6:
+      return "토요일";
+  }
+}
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌getTime(), setTime()
+
+- 1970-01-01 00:00:00 (유닉스타임)부터 경과한
+- 날짜 인스턴스의 '밀리초(ms)' 을 반환한다.
+
+```javascript
+const date = new Date();
+
+console.log(date.getTime()); // 1713623232455
+console.log(date); // Sat Apr 20 2024 23:27:12 GMT+0900 (대한민국 표준시)
+
+date.setTime(170000000000);
+console.log(date.getTime()); // 170000000000
+console.log(date); // Thu May 22 1975 23:13:20 GMT+0900 (대한민국 표준시)
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌Date.now()
+
+- 1970-01-01 00:00:00 (유닉스타임)부터 경과한
+- 메소드가 호출될 때의 '밀리초(ms)'로 반환한다.
+
+```javascript
+const date = new Date();
+
+console.log(date.getTime()); // 1713623232455
+console.log(date); // Sat Apr 20 2024 23:27:12 GMT+0900 (대한민국 표준시)
+
+date.setTime(170000000000);
+console.log(date.getTime()); // 170000000000
+console.log(date); // Thu May 22 1975 23:13:20 GMT+0900 (대한민국 표준시)
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
