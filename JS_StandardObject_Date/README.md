@@ -242,14 +242,15 @@ console.log(date); // Thu May 22 1975 23:13:20 GMT+0900 (대한민국 표준시)
 - 메소드가 호출될 때의 '밀리초(ms)'로 반환한다.
 
 ```javascript
-const date = new Date();
+const time = new Date().getTime();
+console.log(Date.now()); // 1713623549122
+console.log(time); // 1713623549122
 
-console.log(date.getTime()); // 1713623232455
-console.log(date); // Sat Apr 20 2024 23:27:12 GMT+0900 (대한민국 표준시)
-
-date.setTime(170000000000);
-console.log(date.getTime()); // 170000000000
-console.log(date); // Thu May 22 1975 23:13:20 GMT+0900 (대한민국 표준시)
+// 1초이후
+setTimeout(() => {
+  console.log(Date.now()); // 1713623550139
+  console.log(time); // 1713623549122
+}, 1000);
 ```
 
 **[⬆ back to top](#카테고리-category)**
