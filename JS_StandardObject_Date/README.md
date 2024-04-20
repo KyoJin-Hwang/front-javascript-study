@@ -14,6 +14,7 @@
   - [📌getHours(), setHours()](#gethours-sethours)
   - [📌getMinutes(), setMinutes()](#getminutes-setminutes)
   - [📌getSeconds(), setSeconds()](#getseconds-setseconds)
+  - [📌getDay()](#getday)
 
 ## ⏰Date란?
 
