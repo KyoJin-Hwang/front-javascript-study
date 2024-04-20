@@ -12,6 +12,7 @@
   - [📌getMonth(), setMonth()](#getmonth-setmonth)
   - [📌getDate(), setDate()](#getdate-setdate)
   - [📌getHours(), setHours()]()
+  - [📌getMinutes(), setMinutes()](#getminutes-setminutes)
 
 ## ⏰Date란?
 
