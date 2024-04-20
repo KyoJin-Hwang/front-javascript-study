@@ -28,12 +28,12 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 
 <hr/>
 
-- [x] **💼표준 내장 객체 (Standard Built-in Object) - 문자, 숫자, 수학**
+- [x] ~~💼표준 내장 객체 (Standard Built-in Object) - 문자, 숫자, 수학~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_StandardObject">💼표준 내장 객체 (Standard Built-in Object) - 문자, 숫자, 수학 </a>
 
 <hr/>
 
-- [x] **💼표준 내장 객체 (Standard Built-in Object) - 날짜**
+- [x] ~~💼표준 내장 객체 (Standard Built-in Object) - 날짜~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_StandardObject_Date">💼표준 내장 객체 (Standard Built-in Object) - 날짜 </a>
 
 
