@@ -16,6 +16,7 @@
   - [📌getSeconds(), setSeconds()](#getseconds-setseconds)
   - [📌getDay()](#getday)
   - [📌getTime(), setTime()](#gettime-settime)
+  - [📌Date.now()](#datenow)
 
 ## ⏰Date란?
 
