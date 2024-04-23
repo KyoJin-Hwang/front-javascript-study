@@ -1,4 +1,4 @@
-# 💼표준 내장 객체 (Standard Built-in Object) - 날짜
+# ⏰표준 내장 객체 (Standard Built-in Object) - 날짜
 
 `by Kyojin Hwang`
 
