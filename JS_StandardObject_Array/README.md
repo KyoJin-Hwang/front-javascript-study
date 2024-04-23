@@ -1,4 +1,4 @@
-# 💼표준 내장 객체 (Standard Built-in Object) - 배열
+# 🍔표준 내장 객체 (Standard Built-in Object) - 배열
 
 `by Kyojin Hwang`
 
