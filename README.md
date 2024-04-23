@@ -36,5 +36,10 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 - [x] ~~💼표준 내장 객체 (Standard Built-in Object) - 날짜~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_StandardObject_Date">💼표준 내장 객체 (Standard Built-in Object) - 날짜 </a>
 
+<hr/>
+
+- [ ] **💼표준 내장 객체 (Standard Built-in Object) - 배열**
+- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_StandardObject_Array">💼표준 내장 객체 (Standard Built-in Object) - 배열 </a>
+
 
 <br/>
