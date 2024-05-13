@@ -437,7 +437,7 @@ for(let i = 9; i > -1; i -= 1 ){
 const fruits = ['Apple', 'Banana', 'Melon']
 
 for (const fruit of fruits){
-  console.log(a)
+  console.log(fruit)
   // Apple, Banana, Cherry
 }
 
