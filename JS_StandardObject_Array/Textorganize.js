@@ -1,8 +1,7 @@
-const arr = ["A", "B", "C"];
-const arr2 = [1, 2, 3, 4, 5];
+const arr1 = ["A", "B", "C"];
+const arr2 = ["D", "E", "F"];
+const arr3 = arr1.concat(arr2);
 
-console.log(arr[0]);
-console.log(arr.at(0));
-
-console.log(arr2[arr2.length - 1]);
-console.log(arr2.at(-1));
+console.log(arr1);
+console.log(arr2);
+console.log(arr3);

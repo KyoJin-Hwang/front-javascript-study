@@ -46,3 +46,23 @@ console.log(arr2.at(-1)); // 5
 
 <hr />
 <br/>
+
+### 📌 concat
+
+- 해당 배열과 주어진 배열을 병합해 `새로운 배열`을 반환한다.
+- 기존 배열은 바뀌지 않는다.
+
+```javascript
+const arr1 = ["A", "B", "C"];
+const arr2 = ["D", "E", "F"];
+const arr3 = arr1.concat(arr2);
+
+console.log(arr1); // ['A', 'B', 'C']
+console.log(arr2); // ['D', 'E', 'F']
+console.log(arr3); // ['A', 'B', 'C', 'D', 'E', 'F']
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
