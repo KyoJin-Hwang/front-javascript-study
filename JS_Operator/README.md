@@ -276,7 +276,7 @@ console.log(a, b) // 1 2
 // 방법 2
 // 배열 같은경우에는 순서를 맞춰야하지만 객체는 키값으로만 뽑아서 사용할 수 있다.
 const { c } = obj
-console.log(c)
+console.log(c) // 3
 
 // 방법 3
 // obj 안에 들어가지는 않는다
