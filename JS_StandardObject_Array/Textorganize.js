@@ -1,9 +1,4 @@
-const arr1 = ["A", "B", "C"];
-const arr2 = ["D", "E", "F"];
-const arr3 = arr1.concat(arr2);
-const arr4 = [...arr1, ...arr2];
+const arr = [0, 1, 2, 3, 4];
+const isValid = arr.every((item) => item < 5);
 
-console.log(arr1);
-console.log(arr2);
-console.log(arr3);
-console.log(arr4);
+console.log(isValid); // true

@@ -70,3 +70,20 @@ console.log(arr4); // ['A', 'B', 'C', 'D', 'E', 'F']
 
 <hr />
 <br/>
+
+### 📌 every
+
+- 배열의 모든 요소가 콜백 테스트에서 참을 반환하는지 확인한다.
+- every의 조건중에서 하나라도 틀릴경우 false 를 반환한다.
+
+```javascript
+const arr = [0, 1, 2, 3, 4];
+const isValid = arr.every((item) => item < 5);
+
+console.log(isValid); // true
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
