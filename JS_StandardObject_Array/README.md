@@ -60,6 +60,10 @@ const arr3 = arr1.concat(arr2);
 console.log(arr1); // ['A', 'B', 'C']
 console.log(arr2); // ['D', 'E', 'F']
 console.log(arr3); // ['A', 'B', 'C', 'D', 'E', 'F']
+
+// 전개연산자 사용 concat 대신
+const arr4 = [...arr1, ...arr2];
+console.log(arr4); // ['A', 'B', 'C', 'D', 'E', 'F']
 ```
 
 **[⬆ back to top](#카테고리-category)**
