@@ -90,3 +90,20 @@ console.log(isValid); // true
 
 <hr />
 <br/>
+
+### 📌 filter
+
+- 주어진 콜백 테스트를 통과한 요소만가지고 새로운 배열로 반환한다.
+- 모든 요소가 테스트를 통과하지 못하면 빈배열을 반환한ㄷ.
+
+```javascript
+const numbers = [1, 2, 5, 104, 20, 56, 78];
+const filterArr = numbers.filter((number) => number < 30);
+
+console.log(filterArr); // [ 1, 2, 5, 20 ]
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
