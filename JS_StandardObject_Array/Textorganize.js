@@ -1,4 +1,7 @@
-const numbers = [1, 2, 5, 104, 20, 56, 78];
-const filterArr = numbers.filter((number) => number < 30);
+const arr = [1, 2, [3, 4]];
+console.log(arr.flat()); // [1, 2, 3, 4]
 
-console.log(filterArr);
+const arr2 = [1, 2, [3, 4, [5, 6, [7, 8]]]];
+console.log(arr2.flat()); // [1, 2, 3, 4, Array(2)]
+console.log(arr2.flat(2)); // [1, 2, 3, 4, 5, 6]
+console.log(arr2.flat(Infinity)); // [1, 2, 3, 4, 5, 6, 7, 8]
