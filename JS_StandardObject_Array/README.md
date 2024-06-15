@@ -123,19 +123,20 @@ console.log(arr.flat()); // [1, 2, 3, 4]
 <hr />
 <br/>
 
-### 📌 flat
+### 📌 forEach
 
-- 대상 배열의 모든 하위 배열을 지정한 깊이까지 이어붙인 새로운 배열을 생성한다.
-- 깊이의 기본값은 `1` 이다.
+- 대상 배열의 길이만큼 주어진 콜백을 실행한다.
 
 ```javascript
-const arr = [1, 2, [3, 4]];
-console.log(arr.flat()); // [1, 2, 3, 4]
+const arr = ["A", "B", "C"];
 
-const arr2 = [1, 2, [3, 4, [5, 6, [7, 8]]]];
-console.log(arr2.flat()); // [1, 2, 3, 4, Array(2)]
-console.log(arr2.flat(2)); // [1, 2, 3, 4, 5, 6]
-console.log(arr2.flat(Infinity)); // [1, 2, 3, 4, 5, 6, 7, 8]
+arr.forEach((item) => console.log(item));
+// A -> B -> C // 한번씩 출력
+
+for (let i = 0; i < arr.length; i += 1) {
+  console.log(arr[i]);
+  // A -> B -> C // 위와 동일
+}
 ```
 
 **[⬆ back to top](#카테고리-category)**
