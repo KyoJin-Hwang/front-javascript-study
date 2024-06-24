@@ -110,7 +110,7 @@ console.log(filterArr); // [ 1, 2, 5, 20 ]
 
 ### 📌 find
 
-- 대상 배열에서 콜백 테스트를 통과하는 첫 번째 요소를 반환한다.
+- 대상 배열에서 콜백 테스트를 통과하는 `첫 번째 요소`를 반환한다.
 
 ```javascript
 const arr = [5, 8, 130, 12, 44];
@@ -126,6 +126,31 @@ const users = [
 
 const foundUser = users.find((user) => user.age > 22);
 console.log(foundUser); // { name: 'owen', age: 25 }
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌 findIndex
+
+- 대상 배열에서 콜백 테스트를 통과하는 `첫 번째 요소의 인덱스`를 반환한다.
+
+```javascript
+const arr = [5, 8, 130, 12, 44];
+const foundItem = arr.find((item) => item > 10);
+
+console.log(foundItem); // 2
+
+const users = [
+  { name: "kyo", age: 20 },
+  { name: "owen", age: 25 },
+  { name: "hwang", age: 23 },
+];
+
+const foundUser = users.find((user) => user.age > 22);
+console.log(foundUser); // 1
 ```
 
 **[⬆ back to top](#카테고리-category)**
