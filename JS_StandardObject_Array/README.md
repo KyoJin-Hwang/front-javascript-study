@@ -244,3 +244,104 @@ console.log(arr.join("/")); // Hwang/Kyo/Jin
 
 <hr />
 <br/>
+
+### 📌 map
+
+- 대상 배열의 길이만큼 주어진 콜백을 실행하고, 콜백의 반환값을 모아 새로운 배열을 생성한다.
+
+```javascript
+const arr = [1, 2, 3, 4];
+const newArr = arr.map((item) => item * 2);
+
+console.log(arr); // [1, 2, 3, 4]
+console.log(newArr); // [2, 4, 6, 8]
+
+const users = [
+  { key: 1, name: "kyo" },
+  { key: 2, name: "Owen" },
+  { key: 3, name: "Jin" },
+];
+
+const newUsers = users.map((user) => {
+  return {
+    ...user,
+    isVaild: true,
+    email: null,
+  };
+});
+
+console.log(users);
+// [
+//   { key: 1, name: "kyo" },
+//   { key: 2, name: "Owen" },
+//   { key: 3, name: "Jin" },
+// ];
+console.log(newUsers);
+// [
+//   { key: 1, name: "kyo", isVaild: true, email: null },
+//   { key: 2, name: "Owen", isVaild: true, email: null },
+//   { key: 3, name: "Jin", isVaild: true, email: null },
+// ];
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌 pop
+
+- 대상 배열에서 마지막 요소를 제거하고 그 요소를 반환한다.
+- 대상 배열 원본이 변경된다.
+
+```javascript
+const numbers = [1, 2, 3];
+
+numbers.pop(); // 여기에서 마지막 요소가 제거된다.
+console.log(numbers); // [1, 2]
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌 push
+
+- 대상 배열에서 마지막 요소에 하나 이상의 요소를 추가하고, 배열의 새로운 길이를 반환한다.
+- 대상 배열 원본이 변경된다.
+
+```javascript
+const fruits = ["Apple", "Banana"];
+console.log(fruits); // [ 'Apple', 'Banana' ]
+console.log(fruits.length); // 2
+
+// 새로운 요소 추가
+const newLength = fruits.push("Cherry");
+console.log(fruits); // [ 'Apple', 'Banana', 'Cherry' ]
+console.log(newLength); // 3
+
+// 새로운 요소 두개 추가
+fruits.push("Mango", "Melon");
+console.log(fruits); // [ 'Apple', 'Banana', 'Cherry', 'Mango', 'Melon' ]
+console.log(fruits.length); // 5
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌 reduce
+
+- 대상 배열의 길이만큼 주어진 콜백을 실행하고, 마지막에 호출되는 콜백의 반환 값을 반환한다.
+- 각 콜백의 반환 값은 다음 콜백으로 전달된다.
+
+```javascript
+
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
