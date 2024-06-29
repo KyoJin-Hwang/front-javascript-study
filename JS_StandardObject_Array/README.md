@@ -180,13 +180,47 @@ console.log(arr.flat()); // [1, 2, 3, 4]
 ```javascript
 const arr = ["A", "B", "C"];
 
-arr.forEach((item) => console.log(item));
-// A -> B -> C // 한번씩 출력
+// 무조건 콜백하여 반복하고 멈출 수 없다.
+arr.forEach((item) => console.log(" forEach " + item)); // A B C
 
-for (let i = 0; i < arr.length; i += 1) {
-  console.log(arr[i]);
-  // A -> B -> C // 위와 동일
+// 장점은 조건으로 반복을 멈출 수 있다.
+for (let i = 0; i < arr.length; i++) {
+  if (i > 1) {
+    break;
+  }
+  console.log(" for " + arr[i]); // A B
 }
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌 includes
+
+- 대상 배열이 특정 요소를 포함하고 있는지 확인한다.
+
+```javascript
+const fruits = ["Apple", "Banana", "Melon"];
+console.log(fruits.includes("Apple")); // true
+console.log(fruits.includes("apple")); // false
+
+const numbers = [1, 2, 3];
+console.log(numbers.includes(2)); // true
+console.log(numbers.includes(7)); // false
+
+const obj = [
+  { key: 1, name: "Kyo" },
+  { key: 2, name: "Jin" },
+  { key: 3, name: "Owen" },
+];
+
+console.log(obj.includes({ key: 1, name: "Kyo" })); // false
+
+const kyo = obj[0];
+
+console.log(obj.includes(kyo)); // true
 ```
 
 **[⬆ back to top](#카테고리-category)**
