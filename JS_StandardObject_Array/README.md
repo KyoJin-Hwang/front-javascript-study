@@ -227,3 +227,20 @@ console.log(obj.includes(kyo)); // true
 
 <hr />
 <br/>
+
+### 📌 join
+
+- 대상 배열의 모든 요소를 구분자로 연결한 문자를 반환한다.
+
+```javascript
+const arr = ["Hwang", "Kyo", "Jin"];
+
+console.log(arr.join()); // Hwang,Kyo,Jin
+console.log(arr.join(", ")); // Hwang, Kyo, Jin
+console.log(arr.join("/")); // Hwang/Kyo/Jin
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
