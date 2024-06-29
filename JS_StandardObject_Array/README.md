@@ -392,7 +392,29 @@ console.log(joinName); // Kyo, Jin, Owen
 - 대상 배열 원본이 변경된다.
 
 ```javascript
-const
+const numbers = [1, 30, 44, 52, 23];
+
+console.log(numbers); // [ 1, 30, 44, 52, 23 ]
+console.log(numbers.reverse()); // [ 23, 52, 44, 30, 1 ]
+console.log(numbers); // [ 23, 52, 44, 30, 1 ]
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌 shift
+
+- 대상 배열에서 첫번째 요소를 제거하고, 제거된 요소를 반환한다.
+- 대상 배열의 원본이 변경된다.
+
+```javascript
+const numbers = [1, 30, 44, 52, 23];
+
+console.log(numbers); // [ 1, 30, 44, 52, 23 ]
+console.log(numbers.reverse()); // [ 23, 52, 44, 30, 1 ]
+console.log(numbers); // [ 23, 52, 44, 30, 1 ]
 ```
 
 **[⬆ back to top](#카테고리-category)**
