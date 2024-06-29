@@ -410,11 +410,29 @@ console.log(numbers); // [ 23, 52, 44, 30, 1 ]
 - 대상 배열의 원본이 변경된다.
 
 ```javascript
-const numbers = [1, 30, 44, 52, 23];
+const arr = ["A", "B", "C"];
 
-console.log(numbers); // [ 1, 30, 44, 52, 23 ]
-console.log(numbers.reverse()); // [ 23, 52, 44, 30, 1 ]
-console.log(numbers); // [ 23, 52, 44, 30, 1 ]
+console.log(arr); // [ 'A', 'B', 'C' ]
+arr.shift();
+console.log(arr); // [ 'B', 'C' ]
+```
+
+**[⬆ back to top](#카테고리-category)**
+
+<hr />
+<br/>
+
+### 📌 unshift
+
+- 대상 배열에서 첫번째 요소에 하나 이상의 요소를 추가하고, 새로운 길이를 반환한다.
+- 대상 배열의 원본이 변경된다.
+
+```javascript
+const arr = ["A", "B", "C"];
+
+console.log(arr); // [ 'A', 'B', 'C' ]
+arr.unshift("C", "D", "X");
+console.log(arr); // [ 'C', 'D', 'X', 'A', 'B', 'C' ]
 ```
 
 **[⬆ back to top](#카테고리-category)**
