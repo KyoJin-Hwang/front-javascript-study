@@ -1,6 +1,10 @@
-const arr = ["A", "B", "C", "D", "E", "F", "G"];
+const numbers = [14, 20, 60, 120, 2, 0, 1];
 
-console.log(arr.slice(0, 3)); // [ 'A', 'B', 'C' ]
-console.log(arr.slice(4, -1)); // [ 'E', 'F' ]
-console.log(arr.slice(5)); // [ 'F', 'G' ]
-console.log(arr); // [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ]
+numbers.sort();
+console.log(numbers);
+
+numbers.sort((a, b) => a - b);
+console.log(numbers);
+
+numbers.sort((a, b) => b - a);
+console.log(numbers);
