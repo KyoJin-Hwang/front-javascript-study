@@ -28,7 +28,7 @@
 - [📌 some](#-some)
 - [📌 sort](#-sort)
 - [📌 splice](#-splice)
-- [📌 Array.from](#-Array.from)
+- [📌 arrayfrom](#-arrayfrom)
 
 ### 📌 length
 
