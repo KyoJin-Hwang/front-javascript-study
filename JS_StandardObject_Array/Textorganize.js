@@ -1,11 +1,9 @@
-const arr = ["A", "B", "C"];
+const test = { 0: "A", 1: "B", 2: "C", length: 3 };
+Array.from(test).forEach((item) => console.log(item));
+// A B C
 
-arr.splice(2, 0, "X");
+const arr1 = Array.from({ length: 5 }, (v, i) => i);
+console.log(arr1); // [ 0, 1, 2, 3, 4 ]
 
-// (인덱스 위치, 인덱스 삭제갯수, 추가할 내용)
-console.log(arr); // [ 'A', 'B', 'X', 'C' ]
-
-const arr2 = [1, 2, 3, 4];
-arr2.splice(2);
-// 한개만 적을경우 그인덱스부터 전체 제거
-console.log(arr2); // [ 1, 2 ]
+const arr2 = [1, 2, 3];
+console.log(Array.from(arr2, (x) => x + x)); // [ 2, 4, 6]
