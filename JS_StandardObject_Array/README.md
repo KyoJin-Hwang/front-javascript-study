@@ -10,6 +10,18 @@
 - [📌 at](#-at)
 - [📌 concat](#-concat)
 - [📌 every](#-every)
+- [📌 filter](#-filter)
+- [📌 find](#-find)
+- [📌 findIndex](#-findIndex)
+- [📌 flat](#-flat)
+- [📌 forEach](#-forEach)
+- [📌 includes](#-includes)
+- [📌 every](#-every)
+- [📌 every](#-every)
+- [📌 every](#-every)
+- [📌 every](#-every)
+- [📌 every](#-every)
+- [📌 every](#-every)
 
 ### 📌 length
 
