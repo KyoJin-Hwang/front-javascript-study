@@ -549,22 +549,6 @@ console.log(arr2); // [ 1, 2 ]
 
 ```javascript
 const test = { 0: "A", 1: "B", 2: "C", length: 3 };
-
-Array.from(test).forEach((item) => console.log(item));
-// A B C
-```
-
-**[⬆ back to top](#카테고리-category)**
-
-<br/>
-<hr />
-
-### 📌 Array.from
-
-- 유사 배열(Array-like)을 실제 배열로 반환한다.
-
-```javascript
-const test = { 0: "A", 1: "B", 2: "C", length: 3 };
 Array.from(test).forEach((item) => console.log(item));
 // A B C
 
