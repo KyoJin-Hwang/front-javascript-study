@@ -1,31 +1,11 @@
-// 예제1
-const numbers = [14, 20, 60, 120, 2, 0, 1];
+const arr = ["A", "B", "C"];
 
-numbers.sort();
-console.log(numbers);
+arr.splice(2, 0, "X");
 
-numbers.sort((a, b) => a - b);
-// 오름차순 정렬
-console.log(numbers);
-// [0, 1, 2, 14, 20, 60, 120];
+// (인덱스 위치, 인덱스 삭제갯수, 추가할 내용)
+console.log(arr); // [ 'A', 'B', 'X', 'C' ]
 
-numbers.sort((a, b) => b - a);
-// 내림차순 정렬
-console.log(numbers);
-// [120, 60, 20, 14, 2, 1, 0];
-
-// 예제2
-const users = [
-  { name: "kyo", age: 25 },
-  { name: "owen", age: 65 },
-  { name: "jin", age: 48 },
-  { name: "eban", age: 38 },
-];
-users.sort((a, b) => a.age - b.age);
-console.log(users);
-// [
-//   { name: "kyo", age: 25 },
-//   { name: "eban", age: 38 },
-//   { name: "jin", age: 48 },
-//   { name: "owen", age: 65 },
-// ];
+const arr2 = [1, 2, 3, 4];
+arr2.splice(2);
+// 한개만 적을경우 그인덱스부터 전체 제거
+console.log(arr2); // [ 1, 2 ]
