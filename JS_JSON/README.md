@@ -1,4 +1,4 @@
-# 🍔표준 내장 객체 (Standard Built-in Object) - JSON
+# 📜표준 내장 객체 (Standard Built-in Object) - JSON
 
 `by Kyojin Hwang`
 
