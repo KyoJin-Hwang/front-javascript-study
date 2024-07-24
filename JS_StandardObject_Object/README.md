@@ -1,4 +1,4 @@
-# 🍔표준 내장 객체 (Standard Built-in Object) - 객체
+# 📕표준 내장 객체 (Standard Built-in Object) - 객체
 
 `by Kyojin Hwang`
 
