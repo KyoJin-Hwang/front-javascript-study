@@ -6,7 +6,10 @@
 
 ## 📚카테고리 (Category)
 
-- [📌 Object.assign](#-Object.assign)
+- [📌 Object.assign](#-objectassign)
+- [📌 Object.entries](#-objectentries)
+- [📌 Object.keys](#-objectkeys)
+- [📌 Object.values](#-objectvalues)
 <hr/>
 
 ### 📌 Object.assign
