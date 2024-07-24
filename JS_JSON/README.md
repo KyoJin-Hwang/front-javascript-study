@@ -6,7 +6,9 @@
 
 ## 📚카테고리 (Category)
 
-- [📌 ]()
+- [📌 JSON 이란?](#-json-이란)
+- [📌 JSON.stringify](#-jsonstringify)
+- [📌 JSON.parse](#-jsonparse)
 <hr/>
 
 ### 📌 JSON 이란?
