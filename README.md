@@ -46,7 +46,7 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 <hr/>
 
 - [ ] **🚀 비동기란? (Asynchronous)**
-- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/main/JS_JSON">🚀 비동기란? (Asynchronous)</a>
+- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/main/JS_Asynchronous">🚀 비동기란? (Asynchronous)</a>
 <hr/>
 
 
