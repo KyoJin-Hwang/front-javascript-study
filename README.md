@@ -7,37 +7,30 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 
 - [x] ~~Node JS 기초~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/NodeJS">Node JS 기초</a>
-
 <hr/>
 
 - [x] ~~JS 데이터 설명~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Data">JS 데이터 설명</a>
-
 <hr/>
 
 - [x] ~~🛠JS 연산자와 구문 (Javascript Operator, Syntax)~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Operator">🛠JS 연산자와 구문 (Javascript Operator, Syntax)</a>
-
 <hr/>
 
 - [x] ~~📐함수 설명 (JavaScript Function)~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Function">📐함수 설명 (JavaScript Function)</a>
-
 <hr/>
 
 - [x] ~~📖자바스크립트 클래스 (JavaScript Class)~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_Class">📖자바스크립트 클래스 (JavaScript Class)</a>
-
 <hr/>
 
 - [x] ~~💼표준 내장 객체 (Standard Built-in Object) - 문자, 숫자, 수학~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_StandardObject">💼표준 내장 객체 (Standard Built-in Object) - 문자, 숫자, 수학 </a>
-
 <hr/>
 
 - [x] ~~⏰표준 내장 객체 (Standard Built-in Object) - 날짜~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/master/JS_StandardObject_Date">⏰표준 내장 객체 (Standard Built-in Object) - 날짜 </a>
-
 <hr/>
 
 - [x] ~~🍔표준 내장 객체 (Standard Built-in Object) - 배열~~
@@ -48,8 +41,12 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/main/JS_StandardObject_Object">📕표준 내장 객체 (Standard Built-in Object) - 객체 </a>
 <hr/>
 
-- [ ] **📜표준 내장 객체 (Standard Built-in Object) - JSON**
+- [x] ~~📜표준 내장 객체 (Standard Built-in Object) - JSON~~
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/main/JS_JSON">📜표준 내장 객체 (Standard Built-in Object) - JSON </a>
+<hr/>
+
+- [x] **🚀 비동기란? (Asynchronous)**
+- <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/main/JS_JSON">🚀 비동기란? (Asynchronous)</a>
 <hr/>
 
 
