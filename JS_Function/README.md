@@ -28,7 +28,7 @@ function hello() {}
 const hello = function () {};
 
 // 호출방법 : 함수이름을 적고 소괄호로 호출하여 실행한다.
-hello();
+hello()
 ```
 
 ### 😫선언식과 표현식의 차이점
