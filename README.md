@@ -45,7 +45,7 @@ URL : https://bobcsot.tistory.com/category/Language/Javascript
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/main/JS_JSON">📜표준 내장 객체 (Standard Built-in Object) - JSON </a>
 <hr/>
 
-- [x] **🚀 비동기란? (Asynchronous)**
+- [ ] **🚀 비동기란? (Asynchronous)**
 - <a href="https://github.com/KyoJin-Hwang/front-javascript-study/tree/main/JS_JSON">🚀 비동기란? (Asynchronous)</a>
 <hr/>
 
