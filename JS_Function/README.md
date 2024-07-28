@@ -1,7 +1,6 @@
 # 📐함수 설명 (JavaScript Function)
 
 `by Kyojin Hwang`
-
 <br/>
 
 ## 📚카테고리 (Category)
