@@ -159,6 +159,115 @@ step1(function (value1) {
 
 ## 📌 프로미스 (Promise)
 
+- 들여쓰기 코드의 길이를 줄여 가독성을 높인다. ( 콜백지옥에 비하여 )
+- 비동기 프로그래밍의 기법이다.
+
+### Promise 객체 생성 방법
+
+```javascript
+const Example = new Promise((resolve, reject) => {
+  // 비동기 시작
+  fetch("https://jsonplaceholder.typicode.com/todos/1")
+    .then((response) => {
+      if (!response.ok) {
+        // 네트워크 요청 실패했을때
+        throw new Error("네트워크 에러 ");
+      }
+      return response.json(); // JSON 형태로 변환
+    })
+    .then((data) => {
+      resolve(data); // fetch 요청 성공 데이터
+    })
+    .catch((error) => {
+      reject(error); // fetch 요청 실패 데이터
+    });
+});
+
+Example.then((data) => {
+  // 위에 함수에서의 resolve값
+  console.log("Resolve 값 : ", data);
+}).catch((error) => {
+  console.log("Error : ", error);
+});
+
+// rmflrh dnldh
+```
+
+### Promise 체이닝 방식
+
+- 여러개의 비동기 작업을 순차적으로 수행할 수 있다.
+
+#### 첫번째 방법
+
+```javascript
+const a = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log(1);
+      resolve();
+    }, 1000);
+  });
+};
+const b = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log(2);
+      resolve();
+    }, 1000);
+  });
+};
+const c = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log(3);
+      resolve();
+    }, 1000);
+  });
+};
+
+const d = () => console.log(4);
+
+a()
+  .then(() => b())
+  .then(() => c())
+  .then(() => d());
+```
+
+#### 두번째 방법
+
+```javascript
+function doSomething() {
+  return new Promise((resolve, reject) => {
+    resolve(100);
+  });
+}
+
+doSomething()
+  .then((value1) => {
+    const data1 = value1 + 50;
+    // 150
+    return data1;
+  })
+  .then((value2) => {
+    // value 2는 위의 data1 값이된다
+    const data2 = value2 + 50;
+    // 200
+    return data2;
+  })
+  .then((value3) => {
+    // value3은 위의 data2 값이된다.
+    const data3 = value3 + 50;
+    // 250
+    return data3;
+  })
+  .then((value4) => {
+    // value4 === data3
+    console.log(value4); // 250 출력
+  });
+
+// 순차적으로 위에서부터 아래로 값을 전달해준다.
+```
+
 **[⬆ back to top](#카테고리-category)**
 <br/>
 
