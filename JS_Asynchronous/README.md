@@ -173,13 +173,14 @@ step1(function (value1) {
 #### - 주의점 -
 - 대기 중인 프로미스는 값과 함께 이행할 수도, 어떤 이유(오류)로 인해 거부될 수도 있다.
 
-### Promise Static Method
-
-### Promise Instance Method
+### resolve, reject
+#### resolve 
+- 주어진 값을 `이행`될 경우 `Promise` 객체를 반환한다. 
+#### rejecct
+- 주어진 값이 `거부` 될 경우 `Promise` 객체를 반환한다.
 
 #### then
-
--
+- 
 
 ```javascript
 
