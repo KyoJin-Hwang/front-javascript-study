@@ -189,8 +189,6 @@ Example.then((data) => {
 }).catch((error) => {
   console.log("Error : ", error);
 });
-
-// rmflrh dnldh
 ```
 
 ### Promise 체이닝 방식
