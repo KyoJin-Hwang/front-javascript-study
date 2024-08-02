@@ -161,34 +161,18 @@ step1(function (value1) {
 
 - 들여쓰기 코드의 길이를 줄여 가독성을 높인다. ( 콜백지옥에 비하여 )
 - 비동기 프로그래밍의 기법이다.
+- 비동기 메소드에서 동기 메소드처럼 값을 반환 할 수 있다.
 
-### Promise 객체 생성 방법
+### Promise Static Method
+
+### Promise Instance Method
+
+#### then
+
+-
 
 ```javascript
-const Example = new Promise((resolve, reject) => {
-  // 비동기 시작
-  fetch("https://jsonplaceholder.typicode.com/todos/1")
-    .then((response) => {
-      if (!response.ok) {
-        // 네트워크 요청 실패했을때
-        throw new Error("네트워크 에러 ");
-      }
-      return response.json(); // JSON 형태로 변환
-    })
-    .then((data) => {
-      resolve(data); // fetch 요청 성공 데이터
-    })
-    .catch((error) => {
-      reject(error); // fetch 요청 실패 데이터
-    });
-});
 
-Example.then((data) => {
-  // 위에 함수에서의 resolve값
-  console.log("Resolve 값 : ", data);
-}).catch((error) => {
-  console.log("Error : ", error);
-});
 ```
 
 ### Promise 체이닝 방식
