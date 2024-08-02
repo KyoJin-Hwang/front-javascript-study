@@ -423,7 +423,7 @@ testAsyncAwait();
 ## 📌 반복문 비동기 처리
 
 ```javascript
-
+const titles = [];
 ```
 
 **[⬆ back to top](#카테고리-category)**
