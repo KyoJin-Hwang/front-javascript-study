@@ -171,7 +171,7 @@ step1(function (value1) {
 - 거부(rejected): 연산이 실패함.
 
 #### - 주의점 -
-
+- 대기 중인 프로미스는 값과 함께 이행할 수도, 어떤 이유(오류)로 인해 거부될 수도 있다.
 
 ### Promise Static Method
 
