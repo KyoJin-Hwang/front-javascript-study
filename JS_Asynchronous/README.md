@@ -276,6 +276,7 @@ doSomething()
 ## 📌 async / await
 
 - 비동기 처리 방식이다.
+- `Promise` 기반이다.
 - `Promise`보다 코드가 길어질 경우 코드 가독성이 더 좋다.
 - `try` , `catch`를 통한 에러핸들링을 한다.
 - `await`은 `async` 안에서만 사용 할 수 있다.
