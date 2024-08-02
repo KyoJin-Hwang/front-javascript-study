@@ -163,6 +163,16 @@ step1(function (value1) {
 - 비동기 프로그래밍의 기법이다.
 - 비동기 메소드에서 동기 메소드처럼 값을 반환 할 수 있다.
 
+### Promise 3가지 상태 
+
+#### - 상태 - 
+- 대기(pending): 이행하지도, 거부하지도 않은 초기 상태.
+- 이행(fulfilled): 연산이 성공적으로 완료됨.
+- 거부(rejected): 연산이 실패함.
+
+#### - 주의점 -
+
+
 ### Promise Static Method
 
 ### Promise Instance Method
