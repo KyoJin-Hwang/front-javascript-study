@@ -197,7 +197,7 @@ Example.then((data) => {
 
 - 여러개의 비동기 작업을 순차적으로 수행할 수 있다.
 
-#### 첫번째 방법
+#### 첫번째 예시
 
 ```javascript
 const a = () => {
@@ -233,7 +233,7 @@ a()
   .then(() => d());
 ```
 
-#### 두번째 방법
+#### 두번째 예시
 
 ```javascript
 function doSomething() {
