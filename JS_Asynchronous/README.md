@@ -195,7 +195,7 @@ Example.then((data) => {
 
 ### Promise 체이닝 방식
 
-- 여러개의 비동기 작업을 순차적으로 수행할 수 있다.
+여러개의 비동기 작업을 순차적으로 수행할 수 있다.
 
 #### 첫번째 예시
 
@@ -266,6 +266,86 @@ doSomething()
   });
 
 // 순차적으로 위에서부터 아래로 값을 전달해준다.
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+<hr/>
+
+## 📌 async / await
+
+- 비동기 처리 방식이다.
+- `Promise`보다 코드가 길어질 경우 코드 가독성이 더 좋다.
+- `try` , `catch`를 통한 에러핸들링을 한다.
+- `await`은 `async` 안에서만 사용 할 수 있다.
+
+#### 예시
+
+```javascript
+const a = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log(1);
+      resolve();
+    }, 1000);
+  });
+};
+const b = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log(2);
+      resolve();
+    }, 1000);
+  });
+};
+const c = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log(3);
+      resolve();
+    }, 1000);
+  });
+};
+
+const testAsyncAwait = async () => {
+  await a();
+  console.log("첫번째!");
+  await b();
+  console.log("두번째!");
+  await c();
+  console.log("세번쨰!");
+};
+
+testAsyncAwait();
+```
+
+### 😎 코드 간소화
+
+상단의 만들어 놓은 async await의 코드를 간소화하기
+
+```javascript
+// 함수 한개 및 함수에서 인자를 받아서 처리
+
+const testConsole = (clgNumber) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log(clgNumber);
+      resolve();
+    }, 1000);
+  });
+};
+
+const testAsyncAwait = async () => {
+  await testConsole(1);
+  console.log("첫번째!");
+  await testConsole(2);
+  console.log("두번째!");
+  await testConsole(3);
+  console.log("세번쨰!");
+};
+
+testAsyncAwait();
 ```
 
 **[⬆ back to top](#카테고리-category)**

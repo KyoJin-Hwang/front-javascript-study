@@ -1,33 +1,19 @@
-const a = () => {
+const testConsole = (clgNumber) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      console.log(1);
-      resolve();
-    }, 1000);
-  });
-};
-const b = () => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      console.log(2);
-      // 여기는 c 함수가 실행된다.
-      // then 을 통하여 Promise 안에 resolve로 이동 되기 떄문이다.
-      resolve();
-    }, 1000);
-  });
-};
-const c = () => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      console.log(3);
+      console.log(clgNumber);
       resolve();
     }, 1000);
   });
 };
 
-const d = () => console.log(4);
+const testAsyncAwait = async () => {
+  await testConsole(1);
+  console.log("첫번째!");
+  await testConsole(2);
+  console.log("두번째!");
+  await testConsole(3);
+  console.log("세번쨰!");
+};
 
-a()
-  .then(() => b())
-  .then(() => c())
-  .then(() => d());
+testAsyncAwait();
