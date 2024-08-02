@@ -163,40 +163,102 @@ step1(function (value1) {
 - 비동기 프로그래밍의 기법이다.
 - 비동기 메소드에서 동기 메소드처럼 값을 반환 할 수 있다.
 
-### 🤷‍♂️ Promise 3가지 상태 
+### 🤷‍♂️ Promise 3가지 상태
 
-#### - 상태 - 
+#### - 상태 -
+
 - 대기(pending): 이행하지도, 거부하지도 않은 초기 상태.
 - 이행(fulfilled): 연산이 성공적으로 완료됨.
 - 거부(rejected): 연산이 실패함.
 
 #### - 주의점 -
+
 - 대기 중인 프로미스는 값과 함께 이행할 수도, 어떤 이유(오류)로 인해 거부될 수도 있다.
 
 ### 🤷‍♂️ resolve, reject
-#### resolve 
-- 주어진 값을 `이행`될 경우 `Promise` 객체를 반환한다. 
+
+#### resolve
+
+- 주어진 값을 `이행`될 경우 `Promise` 객체를 반환한다.
+
 #### rejecct
+
 - 주어진 값이 `거부` 될 경우 `Promise` 객체를 반환한다.
 
 ### 🤷‍♂️ then, catch, finally
+
 #### then
+
 - 두개의 인수를 받는다
   - 첫번째 인수는 `fulfilled` 상태의 값을 전달
   - 두번째 인수는 `rejected` 상태의 값을 전달
 - 에러를 즉시 처리하지 않을 경우에는 두번째 인수를 사용하지 않고 `catch` 를 사용한다.
   - 프로미스를 사용할 경우 코드가 길어져서 아래가 복잡해질 경우가 있다.
-#### catch 
-- 프로미스가 거부될 때 사용한다. (에러 처리) 
+
+#### catch
+
+- 프로미스가 거부될 때 사용한다. (에러 처리)
+
+#### finally
+
+- 프로미스를 처리하고 맨 마지막에 호출한다.
 
 #### 예시1
-```javascript
 
+```javascript
+const test = (bool) => {
+  return new Promise((resolve, reject) => {
+    if (bool) {
+      resolve("resolve 성공!");
+    } else {
+      reject("reject 성공!");
+    }
+  });
+};
+
+test(false)
+  .then((val) => {
+    console.log(val);
+  })
+  .catch((err) => {
+    console.error(err);
+  })
+  .finally(() => {
+    console.log("난 finally 어떠한 경우에도 마지막에 실행되용!");
+  });
 ```
+
 #### 예시2
-```javascript
 
+```javascript
+const Example = new Promise((resolve, reject) => {
+  // 비동기 시작
+  fetch("https://jsonplaceholder.typicode.com/todos/1")
+    // fetch("https://jsonplaceholder.typicode.com/todos/1322")
+    // fetch("https://noneapitest.com")
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(response.status);
+      }
+      // JSON 형태로 변환 후 아래의 then으로 넘겨준다.
+      return response.json();
+    })
+    .then((data) => {
+      resolve(data); // fetch 요청 성공 데이터
+    })
+    .catch((error) => {
+      reject(error + " 에러가 났어!"); // fetch 요청 실패 데이터
+    });
+});
+
+Example.then((data) => {
+  // 위에 함수에서의 resolve값
+  console.log("Resolve 값 : ", data);
+}).catch((error) => {
+  console.log(error);
+});
 ```
+
 ### Promise 체이닝 방식
 
 여러개의 비동기 작업을 순차적으로 수행할 수 있다.
@@ -351,6 +413,17 @@ const testAsyncAwait = async () => {
 };
 
 testAsyncAwait();
+```
+
+**[⬆ back to top](#카테고리-category)**
+<br/>
+
+<hr/>
+
+## 📌 반복문 비동기 처리
+
+```javascript
+
 ```
 
 **[⬆ back to top](#카테고리-category)**
