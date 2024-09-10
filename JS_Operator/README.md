@@ -83,7 +83,7 @@ console.log( a >= b ) //false
 // 작다
 console.log( a < b ) //true
 // 작거나 같음
-console.log( a <>= b ) //true
+console.log( a <= b ) //true
 ----------------------------------------------
 
 ```
